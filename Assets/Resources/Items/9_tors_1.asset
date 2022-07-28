@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
+  m_Name: 9_tors_1
+  m_EditorClassIdentifier: 
+  Id: 9
+  Icon: {fileID: -1053833278897546694, guid: 37af0fdde3c51e3419b8e780edb92aee, type: 3}
+  Name: Leather Tors
+  MaxSizeSlot: 1
+  Level: 1
+  Attack: 0
+  Armor: 1
+  cost: 20
+  Features: 
+  m_ItemTupe: 2
+  m_ArmorTupe: 2
+  PrefabItem: {fileID: 919132149155446097, guid: e85fc81ff4801234fa959d9f8103404b,
+    type: 3}
+  Buffs: []
+  Improve: 0
+  neededAttr: 0
+  neededSkill: 0
+  neededLevel: 0
+  nameAttr: 
+  nameSkill: 
+  _itemsForCraft: []
+  _craftDifficult: 2

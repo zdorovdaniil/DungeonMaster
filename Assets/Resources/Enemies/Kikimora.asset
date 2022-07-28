@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5bedfdae35465c44a64cd948b75b765, type: 3}
+  m_Name: Kikimora
+  m_EditorClassIdentifier: 
+  Id: 5
+  m_EnemyType: 2
+  Icon: {fileID: 0}
+  Name: Kikimora
+  _strenght: 5
+  _agility: 5
+  _endurance: 10
+  _speed: 20
+  _attackWeapon: 2
+  _armorEquip: 10
+  timeResetHit: 0.5
+  _multiplierPerLvl: 0.1
+  Features: Kikimora fire
+  PrefabEnemy: {fileID: 7865502011356166492, guid: 6b02ad1df3a33d146a8c71c6c8a6d856,
+    type: 3}
+  IsBoss: 0
+  RandomObjectsDrop:
+  - {fileID: 11400000, guid: 02e0dd763312e32458653dcc70747992, type: 2}
+  AlwaysObjectsDrop: []
+  CoinsDrop: 0

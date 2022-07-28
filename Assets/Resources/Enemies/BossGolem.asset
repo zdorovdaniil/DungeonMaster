@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5bedfdae35465c44a64cd948b75b765, type: 3}
+  m_Name: BossGolem
+  m_EditorClassIdentifier: 
+  Id: 3
+  m_EnemyType: 0
+  Icon: {fileID: 0}
+  Name: big golem
+  _strenght: 15
+  _agility: 20
+  _endurance: 25
+  _speed: 10
+  _attackWeapon: 4
+  _armorEquip: 30
+  timeResetHit: 0.5
+  _multiplierPerLvl: 0.2
+  Features: 
+  PrefabEnemy: {fileID: 1252435313479011921, guid: 931c45399dd50b0439b2b1c119a40210,
+    type: 3}
+  IsBoss: 1
+  RandomObjectsDrop:
+  - {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}
+  AlwaysObjectsDrop: []
+  CoinsDrop: 0

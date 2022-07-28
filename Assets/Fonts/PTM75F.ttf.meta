@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 374eb0c3a230e3a408e4e19640312a86
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PT Mono
+  fontNames:
+  - PT Mono
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 14f8b60cfc0cf7e4b8e50e85829ee0b4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
