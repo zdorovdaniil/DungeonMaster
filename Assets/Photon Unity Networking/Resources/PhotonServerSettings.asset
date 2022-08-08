@@ -74,4 +74,6 @@ MonoBehaviour:
   - AddItemWithId
   - Activate
   - AddBuff
+  - SetChunkPosition
+  - SetChunkRotation
   DisableAutoOpenWizard: 1

@@ -575,10 +575,10 @@ MonoBehaviour:
   _isActivingObjects: 1
   _activingObjAfterClear:
   - {fileID: 5496680565358162397}
+  _activingObjAfterEnter: []
   RoomDescription: 
   _isAmbushRoom: 0
   _doorClosingTime: 2
-  ListEnemyies: []
   ListPlayers: []
   _isActivedObject: 0
   CountDefeatEnemy: 0
@@ -3279,6 +3279,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2480488047387075116, guid: ffd3e66d4df2a554fb995d41f7ffe4c2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6259073818633024624, guid: ffd3e66d4df2a554fb995d41f7ffe4c2,
         type: 3}

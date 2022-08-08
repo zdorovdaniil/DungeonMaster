@@ -852,7 +852,6 @@ GameObject:
   - component: {fileID: 6275079782431115894}
   - component: {fileID: 6275079782431115888}
   - component: {fileID: 6275079782431115897}
-  - component: {fileID: 6275079782431115890}
   - component: {fileID: 6275079782431115891}
   - component: {fileID: 290154432565974039}
   - component: {fileID: 9101998693120119729}
@@ -888,6 +887,7 @@ Transform:
   - {fileID: 9007086934392406160}
   - {fileID: 4770233250911486351}
   - {fileID: 5511675064077449831}
+  - {fileID: 2539088936528968775}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -945,12 +945,8 @@ MonoBehaviour:
   IsDeath: 0
   enemyTupe: {fileID: 11400000, guid: 57fadf0a5291ce142b9b67541939fff6, type: 2}
   BelongRoom: {fileID: 0}
-  lvlUI: {fileID: 0}
-  NameEnemyUI: {fileID: 0}
-  HealthEnemyUI: {fileID: 0}
-  EnemyGUI: {fileID: 0}
-  _mapPoint: {fileID: 0}
-  _disableComponentsOnDeath: []
+  _enemyUI: {fileID: 3841266243231457297}
+  _mapPoint: {fileID: 5511675064077449831}
 --- !u!114 &6275079782431115897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -973,6 +969,7 @@ MonoBehaviour:
   speedMoving: 6
   lookRadius: 22
   attackRadius: 3.5
+  longAttackRadius: 6
   countAttackAnim: 1
   isAvaibleLongAttack: 0
   distanceToPlayer: 0
@@ -980,84 +977,6 @@ MonoBehaviour:
   - {fileID: 3817192041730271581}
   timer: 0
   isFirstAttack: 1
---- !u!114 &6275079782431115890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6275079782431115896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PositionModel:
-    SynchronizeEnabled: 1
-    TeleportEnabled: 1
-    TeleportIfDistanceGreaterThan: 3
-    InterpolateOption: 2
-    InterpolateMoveTowardsSpeed: 1
-    InterpolateLerpSpeed: 1
-    InterpolateMoveTowardsAcceleration: 2
-    InterpolateMoveTowardsDeceleration: 2
-    InterpolateSpeedCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: -1
-        value: 0
-        inSlope: 0
-        outSlope: Infinity
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 4
-        value: 4
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    ExtrapolateOption: 0
-    ExtrapolateSpeed: 2
-    ExtrapolateIncludingRoundTripTime: 1
-    ExtrapolateNumberOfStoredPositions: 1
-    DrawErrorGizmo: 1
-  m_RotationModel:
-    SynchronizeEnabled: 1
-    InterpolateOption: 2
-    InterpolateRotateTowardsSpeed: 180
-    InterpolateLerpSpeed: 10
-  m_ScaleModel:
-    SynchronizeEnabled: 0
-    InterpolateOption: 0
-    InterpolateMoveTowardsSpeed: 1
-    InterpolateLerpSpeed: 0
 --- !u!114 &6275079782431115891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1079,7 +998,6 @@ MonoBehaviour:
   onSerializeRigidBodyOption: 2
   ownershipTransfer: 0
   ObservedComponents:
-  - {fileID: 6275079782431115890}
   - {fileID: 6275079782431115888}
   ObservedComponentsFoldoutOpen: 1
   viewIdField: 0
@@ -1114,7 +1032,8 @@ MonoBehaviour:
   isDroped: 0
   PrefDrop: {fileID: 4391377017478227915, guid: 818d0deb32ec8be4db1b38fae548555f,
     type: 3}
-  _database: {fileID: 11400000, guid: 9f7589f1ccbda6c4da0386459ef9df5f, type: 2}
+  _itemsInLootDrop: []
+  _isDependOnDungeonLevel: 1
   _valueOneDrop: 75
   _valueMinDrop: 1
   _valueMaxDrop: 100
@@ -2899,66 +2818,90 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyController: {fileID: 6275079782431115897}
---- !u!114 &3817192041846083398
-MonoBehaviour:
+--- !u!1001 &5983966642844132448
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6275079782431115893}
+    m_Modifications:
+    - target: {fileID: 6366876370197654573, guid: 22e39b0855fb3e643bac04200adbea67,
+        type: 3}
+      propertyPath: m_Name
+      value: GUIEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 22e39b0855fb3e643bac04200adbea67, type: 3}
+--- !u!4 &2539088936528968775 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
+    type: 3}
+  m_PrefabInstance: {fileID: 5983966642844132448}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3817192041846049197}
+--- !u!114 &3841266243231457297 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7369501694041801841, guid: 22e39b0855fb3e643bac04200adbea67,
+    type: 3}
+  m_PrefabInstance: {fileID: 5983966642844132448}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Script: {fileID: 11500000, guid: 542ad6e3cc84fc340892fbe7d39f8968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowLayerWeightsInspector: 1
-  ShowParameterInspector: 1
-  m_SynchronizeParameters:
-  - Type: 4
-    SynchronizeType: 1
-    Name: Idle
-  - Type: 9
-    SynchronizeType: 2
-    Name: Attack
-  - Type: 9
-    SynchronizeType: 1
-    Name: Death
-  - Type: 4
-    SynchronizeType: 1
-    Name: Run
-  - Type: 9
-    SynchronizeType: 1
-    Name: Reset
-  - Type: 4
-    SynchronizeType: 1
-    Name: Hit
-  m_SynchronizeLayers:
-  - SynchronizeType: 1
-    LayerIndex: 0
---- !u!114 &3817192041846083399
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3817192041846049197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ownerId: 0
-  group: 0
-  OwnerShipWasTransfered: 0
-  prefixBackup: -1
-  synchronization: 3
-  onSerializeTransformOption: 3
-  onSerializeRigidBodyOption: 2
-  ownershipTransfer: 0
-  ObservedComponents:
-  - {fileID: 3817192041846083398}
-  ObservedComponentsFoldoutOpen: 1
-  viewIdField: 0
-  instantiationId: -1
-  currentMasterID: -1
-  isRuntimeInstantiated: 0

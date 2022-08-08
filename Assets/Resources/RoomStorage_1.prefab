@@ -135,6 +135,9 @@ MonoBehaviour:
   _quest: {fileID: 0}
   _item: {fileID: 11400000, guid: b00a86168e29090448d4eb4aa0cb5c6f, type: 2}
   DEBUGChest: {fileID: 0}
+  onTriggerExe:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1609591931442132560
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,6 +321,9 @@ MonoBehaviour:
   _quest: {fileID: 0}
   _item: {fileID: 11400000, guid: b00a86168e29090448d4eb4aa0cb5c6f, type: 2}
   DEBUGChest: {fileID: 0}
+  onTriggerExe:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &2824141505217712672
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,6 +661,9 @@ MonoBehaviour:
   _quest: {fileID: 11400000, guid: 612291d34573bfb4e8f706ff32cc0f94, type: 2}
   _item: {fileID: 0}
   DEBUGChest: {fileID: 0}
+  onTriggerExe:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4815552259221977090
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,7 +976,6 @@ GameObject:
   - component: {fileID: 3601352577165396236}
   - component: {fileID: 3835195081049128299}
   - component: {fileID: 1794505222772152108}
-  - component: {fileID: 2826955611092291915}
   - component: {fileID: 1852731538942438236}
   m_Layer: 0
   m_Name: RoomStorage_1
@@ -1073,7 +1081,6 @@ MonoBehaviour:
   RoomDescription: 
   _isAmbushRoom: 0
   _doorClosingTime: 2
-  ListEnemyies: []
   ListPlayers: []
   _isActivedObject: 0
   CountDefeatEnemy: 0
@@ -1111,7 +1118,6 @@ MonoBehaviour:
   onSerializeRigidBodyOption: 2
   ownershipTransfer: 0
   ObservedComponents:
-  - {fileID: 2826955611092291915}
   - {fileID: 6634936866734941887}
   - {fileID: 3601352577165396236}
   ObservedComponentsFoldoutOpen: 1
@@ -1119,84 +1125,6 @@ MonoBehaviour:
   instantiationId: -1
   currentMasterID: -1
   isRuntimeInstantiated: 0
---- !u!114 &2826955611092291915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8735912805600693599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PositionModel:
-    SynchronizeEnabled: 1
-    TeleportEnabled: 1
-    TeleportIfDistanceGreaterThan: 3
-    InterpolateOption: 2
-    InterpolateMoveTowardsSpeed: 1
-    InterpolateLerpSpeed: 1
-    InterpolateMoveTowardsAcceleration: 2
-    InterpolateMoveTowardsDeceleration: 2
-    InterpolateSpeedCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: -1
-        value: 0
-        inSlope: 0
-        outSlope: Infinity
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 1
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 4
-        value: 4
-        inSlope: 1
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    ExtrapolateOption: 0
-    ExtrapolateSpeed: 1
-    ExtrapolateIncludingRoundTripTime: 1
-    ExtrapolateNumberOfStoredPositions: 1
-    DrawErrorGizmo: 1
-  m_RotationModel:
-    SynchronizeEnabled: 0
-    InterpolateOption: 1
-    InterpolateRotateTowardsSpeed: 180
-    InterpolateLerpSpeed: 5
-  m_ScaleModel:
-    SynchronizeEnabled: 0
-    InterpolateOption: 0
-    InterpolateMoveTowardsSpeed: 1
-    InterpolateLerpSpeed: 0
 --- !u!114 &1852731538942438236
 MonoBehaviour:
   m_ObjectHideFlags: 0

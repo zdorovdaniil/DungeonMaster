@@ -2450,12 +2450,8 @@ MonoBehaviour:
   IsDeath: 0
   enemyTupe: {fileID: 11400000, guid: daf1496dca9176e49ae3c589df3d9081, type: 2}
   BelongRoom: {fileID: 0}
-  lvlUI: {fileID: 3448371988345296353}
-  NameEnemyUI: {fileID: 5112667697584096756}
-  HealthEnemyUI: {fileID: 3757634338720419716}
-  EnemyGUI: {fileID: 6578777290118970364}
+  _enemyUI: {fileID: 5566114554240231338}
   _mapPoint: {fileID: 1706436162117067097}
-  _disableComponentsOnDeath: []
 --- !u!114 &7865502011356166493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2768,40 +2764,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22e39b0855fb3e643bac04200adbea67, type: 3}
---- !u!114 &3448371988345296353 stripped
+--- !u!114 &5566114554240231338 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 333373029870745146, guid: 22e39b0855fb3e643bac04200adbea67,
+  m_CorrespondingSourceObject: {fileID: 7369501694041801841, guid: 22e39b0855fb3e643bac04200adbea67,
     type: 3}
   m_PrefabInstance: {fileID: 3133226662408135643}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &3757634338720419716 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2260448061964889183, guid: 22e39b0855fb3e643bac04200adbea67,
-    type: 3}
-  m_PrefabInstance: {fileID: 3133226662408135643}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &5112667697584096756 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7892748709925217839, guid: 22e39b0855fb3e643bac04200adbea67,
-    type: 3}
-  m_PrefabInstance: {fileID: 3133226662408135643}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 542ad6e3cc84fc340892fbe7d39f8968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &6578777290118970364 stripped

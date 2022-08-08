@@ -43,7 +43,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -1283890923809080267, guid: 29612943a168b9745af7ddab86d29f3e,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 8e1e13a16283f0744873be0ea00f71a0, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b94dbb323006f8243ba7f69243f6c6a3, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -385,7 +385,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -1283890923809080267, guid: 29612943a168b9745af7ddab86d29f3e,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: fcb7d8f83ffcbae46a908a3af40be6ec, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 833e3d9a951cc0c41aacb6f4eb14cf55, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1026,16 +1026,8 @@ MonoBehaviour:
   IsDeath: 0
   enemyTupe: {fileID: 11400000, guid: 7db54136d9c86aa4ab315d2618846deb, type: 2}
   BelongRoom: {fileID: 0}
-  lvlUI: {fileID: 1070492843013746809}
-  NameEnemyUI: {fileID: 7490589758772043884}
-  HealthEnemyUI: {fileID: 1523904533987174940}
-  EnemyGUI: {fileID: 8812612681252380260}
+  _enemyUI: {fileID: 7799948880766485042}
   _mapPoint: {fileID: 8174765916052267224}
-  _disableComponentsOnDeath:
-  - {fileID: 7200389530639914848}
-  - {fileID: 0}
-  - {fileID: 7200389530639914858}
-  - {fileID: 7200389530639914861}
 --- !u!114 &7200389530639914848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1421,7 +1413,7 @@ PrefabInstance:
     - target: {fileID: 6366876370197654573, guid: 22e39b0855fb3e643bac04200adbea67,
         type: 3}
       propertyPath: m_Name
-      value: GUIObject
+      value: GUIEnemy
       objectReference: {fileID: 0}
     - target: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
         type: 3}
@@ -1480,40 +1472,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22e39b0855fb3e643bac04200adbea67, type: 3}
---- !u!114 &1070492843013746809 stripped
+--- !u!114 &7799948880766485042 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 333373029870745146, guid: 22e39b0855fb3e643bac04200adbea67,
+  m_CorrespondingSourceObject: {fileID: 7369501694041801841, guid: 22e39b0855fb3e643bac04200adbea67,
     type: 3}
   m_PrefabInstance: {fileID: 755274949845485123}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1523904533987174940 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2260448061964889183, guid: 22e39b0855fb3e643bac04200adbea67,
-    type: 3}
-  m_PrefabInstance: {fileID: 755274949845485123}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &7490589758772043884 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7892748709925217839, guid: 22e39b0855fb3e643bac04200adbea67,
-    type: 3}
-  m_PrefabInstance: {fileID: 755274949845485123}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Script: {fileID: 11500000, guid: 542ad6e3cc84fc340892fbe7d39f8968, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &8812612681252380260 stripped
