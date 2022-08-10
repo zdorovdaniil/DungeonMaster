@@ -76,4 +76,5 @@ MonoBehaviour:
   - AddBuff
   - SetChunkPosition
   - SetChunkRotation
+  - DungeonFailGenerated
   DisableAutoOpenWizard: 1

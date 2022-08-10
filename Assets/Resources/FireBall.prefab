@@ -4738,6 +4738,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimeToDestruct: 1.5
   StartSpeed: 24
+  _flyTrail: {fileID: 0}
   particleHit: {fileID: 0}
 --- !u!54 &1025328027174659901
 Rigidbody:
@@ -4907,6 +4908,7 @@ MonoBehaviour:
   _sounds:
   - {fileID: 3134809889339287510}
   _runAtStart: 1
+  _runWithDelay: 0
 --- !u!1 &1181784719472992390
 GameObject:
   m_ObjectHideFlags: 0

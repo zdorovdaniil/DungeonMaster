@@ -106,6 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimeToDestruct: 0.8
   StartSpeed: 32
+  _flyTrail: {fileID: 905652583733272479}
   particleHit: {fileID: 0}
 --- !u!54 &1025328027174659901
 Rigidbody:
@@ -275,6 +276,7 @@ MonoBehaviour:
   _sounds:
   - {fileID: 8345316333124312872}
   _runAtStart: 1
+  _runWithDelay: 0
 --- !u!1 &8345316333124312874
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,9 +475,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89d76d8dc2b13ac41b9763474d52f76b, type: 3}
+--- !u!198 &905652583733272479 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 6240524758198247715, guid: 89d76d8dc2b13ac41b9763474d52f76b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6488361111329046204}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1027044330274665919 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6074090830637845251, guid: 89d76d8dc2b13ac41b9763474d52f76b,
     type: 3}
   m_PrefabInstance: {fileID: 6488361111329046204}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1032502065504833997 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6079689234572914545, guid: 89d76d8dc2b13ac41b9763474d52f76b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6488361111329046204}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9059833443225733320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032502065504833997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60b2ab397e8d7547869576e00cfeea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timeToDestroy: 2
+  _gameObject: {fileID: 0}

@@ -425,7 +425,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.6
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -450,7 +450,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &224813465
 RectTransform:
@@ -705,52 +705,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 224813465}
     m_Modifications:
-    - target: {fileID: 2892477400268619823, guid: 8f51afbac80e21e44b1cb4011c6871c3,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4384448395228260643, guid: 8f51afbac80e21e44b1cb4011c6871c3,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 9bd49b3d56e6e8b4197c83fda3a853e9,
-        type: 3}
-    - target: {fileID: 4384448395228260643, guid: 8f51afbac80e21e44b1cb4011c6871c3,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4384448395228260643, guid: 8f51afbac80e21e44b1cb4011c6871c3,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.62352943
-      objectReference: {fileID: 0}
-    - target: {fileID: 4384448395228260643, guid: 8f51afbac80e21e44b1cb4011c6871c3,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.34509805
-      objectReference: {fileID: 0}
-    - target: {fileID: 4384448395228260643, guid: 8f51afbac80e21e44b1cb4011c6871c3,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.28627452
-      objectReference: {fileID: 0}
-    - target: {fileID: 4384448395228260643, guid: 8f51afbac80e21e44b1cb4011c6871c3,
-        type: 3}
-      propertyPath: m_Maskable
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4384448395228260643, guid: 8f51afbac80e21e44b1cb4011c6871c3,
-        type: 3}
-      propertyPath: m_FillAmount
-      value: 0.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4384448395228260643, guid: 8f51afbac80e21e44b1cb4011c6871c3,
-        type: 3}
-      propertyPath: m_PreserveAspect
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8375037627180571094, guid: 8f51afbac80e21e44b1cb4011c6871c3,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1214,6 +1168,7 @@ MonoBehaviour:
   - {fileID: 6634936866734941887, guid: 29ee6359d2288eb4faf2a0abaf673a33, type: 3}
   NumRooms: 9
   NumSpawnedRooms: 0
+  NumFailSpawned: 0
   TrySpawnRooms: 0
   _dungeonObjects: {fileID: 704824284}
   isMyltiplayer: 0
