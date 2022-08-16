@@ -2015,7 +2015,7 @@ MonoBehaviour:
   _sSkillUp: {fileID: 393193490}
   _sAttributeUp: {fileID: 1023701622}
   _sOpenChest: {fileID: 717065576496508700}
-  _CloseChest: {fileID: 8563738690561267974}
+  _sCloseChest: {fileID: 8563738690561267974}
 --- !u!1 &7761736846309387318
 GameObject:
   m_ObjectHideFlags: 0

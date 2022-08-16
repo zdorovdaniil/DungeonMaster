@@ -1589,12 +1589,7 @@ MonoBehaviour:
   - {fileID: 792679282692417494}
   - {fileID: 5117719935614506607}
   SpawnEnemies:
-  - {fileID: 11400000, guid: daf1496dca9176e49ae3c589df3d9081, type: 2}
   - {fileID: 11400000, guid: 7db54136d9c86aa4ab315d2618846deb, type: 2}
-  - {fileID: 11400000, guid: 6e4011eaf89c1574d920ae1a936f6518, type: 2}
-  - {fileID: 11400000, guid: bedb2cc253c3a504ea6b2e055b7c74fd, type: 2}
-  - {fileID: 11400000, guid: 9d4c1765a007d3b47b69d2c2a411b0c7, type: 2}
-  - {fileID: 11400000, guid: 57fadf0a5291ce142b9b67541939fff6, type: 2}
   _countEnemy: 2
   _isActivingObjects: 1
   _activingObjAfterClear:

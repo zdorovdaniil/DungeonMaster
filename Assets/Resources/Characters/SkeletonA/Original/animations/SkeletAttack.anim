@@ -49317,6 +49317,13 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0.73333335
+    functionName: SpawnSwordEffects
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 25
+    messageOptions: 0
   - time: 0.75
     functionName: ActivateDamageZone
     data: 

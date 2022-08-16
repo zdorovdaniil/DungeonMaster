@@ -163,6 +163,7 @@ Transform:
   - {fileID: 2589183485582223840}
   - {fileID: 3472511300220215655}
   - {fileID: 357287170150789871}
+  - {fileID: 43375002358080409}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -340,6 +341,7 @@ MonoBehaviour:
   - {fileID: 596965861688336137}
   _idle: []
   _hearth: []
+  _takeDrop: []
 --- !u!1 &1252435314765293736
 GameObject:
   m_ObjectHideFlags: 0
@@ -929,6 +931,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &5774522204107132322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 43375002358080409}
+  m_Layer: 0
+  m_Name: TRMmiddlePuff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &43375002358080409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5774522204107132322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1252435313479011920}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7490467073004712545
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,6 +1895,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4419657122934145063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134955373827534280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a0080d80fd032644866f40ec7a151fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _effectType: 0
+  _transform: {fileID: 43375002358080409}
 --- !u!114 &5612024021619913550
 MonoBehaviour:
   m_ObjectHideFlags: 0

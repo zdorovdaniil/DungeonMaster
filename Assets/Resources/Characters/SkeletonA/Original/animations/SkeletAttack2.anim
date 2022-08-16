@@ -85000,6 +85000,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.5
+    functionName: SpawnSwordEffects
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 25
+    messageOptions: 0
   - time: 0.6666667
     functionName: DisableDamageZone
     data: 
@@ -85021,6 +85028,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 1.2083334
+    functionName: SpawnSwordEffects
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 25
+    messageOptions: 0
   - time: 1.3333334
     functionName: DisableDamageZone
     data: 
@@ -85041,6 +85055,13 @@ AnimationClip:
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
+    messageOptions: 0
+  - time: 1.9583334
+    functionName: SpawnSwordEffects
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 140
     messageOptions: 0
   - time: 2.25
     functionName: DisableDamageZone

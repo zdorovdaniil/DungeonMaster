@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 561736111556551837}
   - component: {fileID: 561736111556551838}
   - component: {fileID: 561736111556551839}
+  - component: {fileID: 5521094164181791359}
   m_Layer: 0
   m_Name: SwordSplash
   m_TagString: Untagged
@@ -4871,6 +4872,21 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &5521094164181791359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561736111556551832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60b2ab397e8d7547869576e00cfeea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timeToDestroy: 0.6
+  _gameObject: {fileID: 0}
+  _tickWithStart: 1
 --- !u!1 &8104426954410530643
 GameObject:
   m_ObjectHideFlags: 0
