@@ -600,6 +600,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &3758113804307889836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7304225180390020922}
+  m_Layer: 0
+  m_Name: TRFhitParticle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7304225180390020922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3758113804307889836}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7200389530639914860}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3932082964056151478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,6 +1031,7 @@ Transform:
   - {fileID: 2429450252049917809}
   - {fileID: 8174765916052267224}
   - {fileID: 6556816283575234031}
+  - {fileID: 7304225180390020922}
   - {fileID: 8812612681252380260}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1451,7 +1483,7 @@ PrefabInstance:
     - target: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 8086202249315620903, guid: 22e39b0855fb3e643bac04200adbea67,
         type: 3}
@@ -1698,19 +1730,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7200389528880986672}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1568031918335980490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7200389528881020114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4c2a926cb5b7a7449ff93f7da4dcbc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _enemyController: {fileID: 7200389530639914848}
 --- !u!114 &1538957190548747789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1726,3 +1745,16 @@ MonoBehaviour:
   _weaponParticle: {fileID: 561736111556551832, guid: 5df7c74c1b09a14449ee170d8aa6eda7,
     type: 3}
   _jercParticle: {fileID: 0}
+--- !u!114 &1568031918335980490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7200389528881020114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c2a926cb5b7a7449ff93f7da4dcbc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyController: {fileID: 7200389530639914848}
