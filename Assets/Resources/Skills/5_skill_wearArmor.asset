@@ -18,4 +18,4 @@ MonoBehaviour:
   Description: The more this skill is, the less damage you will receive from the
     attack
   Level: 0
-  MaxLevel: 10
+  MaxLevel: 20

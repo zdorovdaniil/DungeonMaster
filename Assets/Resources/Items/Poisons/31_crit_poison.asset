@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
+  m_Name: 31_crit_poison
+  m_EditorClassIdentifier: 
+  Id: 31
+  Icon: {fileID: 5458315219785482453, guid: 3ad9eef9adfdca1439bf8bae56d48ca1, type: 3}
+  Name: Crit Poison
+  MaxSizeSlot: 4
+  Level: 4
+  CritChance: 0
+  CritValue: 0
+  Attack: 0
+  Armor: 0
+  cost: 1
+  Features: 'Buff speed move: +3'
+  m_ItemTupe: 5
+  m_ArmorTupe: 0
+  PrefabItem: {fileID: 0}
+  Buffs:
+  - {fileID: 11400000, guid: 66b73da7e501ada43b92f60f1027f738, type: 2}
+  - {fileID: 11400000, guid: f89d96de34ac49345be88160b38ade06, type: 2}
+  Improve: 0
+  neededAttr: 0
+  neededSkill: 0
+  neededLevel: 0
+  nameAttr: 
+  nameSkill: 
+  _itemsForCraft: []
+  _craftDifficult: 0

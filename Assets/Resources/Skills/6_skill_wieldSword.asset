@@ -18,4 +18,4 @@ MonoBehaviour:
   Description: At the 1st level, a series of blows of three blows is available, at
     the 3rd level of four blows, etc.
   Level: 0
-  MaxLevel: 10
+  MaxLevel: 20

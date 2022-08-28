@@ -77,4 +77,6 @@ MonoBehaviour:
   - SetChunkPosition
   - SetChunkRotation
   - DungeonFailGenerated
+  - SetStatusObjects
+  - SendDamageDestroyObject
   DisableAutoOpenWizard: 1

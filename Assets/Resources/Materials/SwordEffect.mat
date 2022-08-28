@@ -51,7 +51,7 @@ Material:
     - _Usedepth: 1
     m_Colors:
     - _AddColor: {r: 0.5377358, g: 0.23082057, b: 0.23082057, a: 0.49019608}
-    - _EmisColor: {r: 0, g: 0.005683899, b: 0.5, a: 1}
+    - _EmisColor: {r: 0.7028302, g: 0.70515186, b: 1, a: 1}
     - _Remap: {r: 1, g: 1, b: 1, a: 1}
     - _SpeedMainTexUVNoiseZW: {r: 1, g: 1, b: 1, a: 1}
     - _TintColor: {r: 0.16460484, g: 0.21542574, b: 0.254717, a: 1}

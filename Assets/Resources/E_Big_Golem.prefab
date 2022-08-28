@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TupeDamageZone: 2
+  _buffs: []
   playerStats: {fileID: 0}
   enemyStats: {fileID: 1252435313479011923}
   Event:
@@ -164,6 +165,7 @@ Transform:
   - {fileID: 1066205914781106899}
   - {fileID: 4641559837195552755}
   - {fileID: 5017733914017825934}
+  - {fileID: 1155341191147177920}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -212,6 +214,7 @@ MonoBehaviour:
   BelongRoom: {fileID: 0}
   _enemyUI: {fileID: 6203830192296598437}
   _mapPoint: {fileID: 1066205914781106899}
+  _particlePlaces: {fileID: 4377294271356595081}
 --- !u!114 &1252435313479010732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -455,6 +458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TupeDamageZone: 2
+  _buffs: []
   playerStats: {fileID: 0}
   enemyStats: {fileID: 1252435313479011923}
   Event:
@@ -1212,7 +1216,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7578803857341245728}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1880,19 +1884,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5612024021619913550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2134955373827534280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4c2a926cb5b7a7449ff93f7da4dcbc0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _enemyController: {fileID: 1252435313479010732}
 --- !u!114 &3317498308344845631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1907,6 +1898,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _effectType: 0
   _transform: {fileID: 5017733914017825934}
+  _chanceSpawn: 100
+  _yChangeCoord: 0
+  _zRoration: 0
+--- !u!114 &5612024021619913550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134955373827534280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4c2a926cb5b7a7449ff93f7da4dcbc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyController: {fileID: 1252435313479010732}
 --- !u!4 &5868072162447195865 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4615661589126049344, guid: 61af7ae12179ce84e8ca1864b46d395e,
@@ -1998,5 +2005,92 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 542ad6e3cc84fc340892fbe7d39f8968, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &6255661231650929593
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1252435313479011920}
+    m_Modifications:
+    - target: {fileID: 5104841233525128313, guid: 13d489a12363d4044b4f9b0ba47cbbf4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104841233525128313, guid: 13d489a12363d4044b4f9b0ba47cbbf4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104841233525128313, guid: 13d489a12363d4044b4f9b0ba47cbbf4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104841233525128313, guid: 13d489a12363d4044b4f9b0ba47cbbf4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104841233525128313, guid: 13d489a12363d4044b4f9b0ba47cbbf4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104841233525128313, guid: 13d489a12363d4044b4f9b0ba47cbbf4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104841233525128313, guid: 13d489a12363d4044b4f9b0ba47cbbf4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104841233525128313, guid: 13d489a12363d4044b4f9b0ba47cbbf4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104841233525128313, guid: 13d489a12363d4044b4f9b0ba47cbbf4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104841233525128313, guid: 13d489a12363d4044b4f9b0ba47cbbf4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5104841233525128313, guid: 13d489a12363d4044b4f9b0ba47cbbf4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846110322166836974, guid: 13d489a12363d4044b4f9b0ba47cbbf4,
+        type: 3}
+      propertyPath: m_Name
+      value: ParticlePlaces
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 13d489a12363d4044b4f9b0ba47cbbf4, type: 3}
+--- !u!4 &1155341191147177920 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5104841233525128313, guid: 13d489a12363d4044b4f9b0ba47cbbf4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6255661231650929593}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4377294271356595081 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7669585418868985904, guid: 13d489a12363d4044b4f9b0ba47cbbf4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6255661231650929593}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0ebfc187b7eef741805ca05d3306133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

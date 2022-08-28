@@ -9,8 +9,9 @@ TagManager:
   - PlayerAttack
   - MsgBox
   - Chest
-  - BreakAbleItem
   - Enemy
+  - FxTemporaire
+  - DestroyObject
   layers:
   - Default
   - TransparentFX
