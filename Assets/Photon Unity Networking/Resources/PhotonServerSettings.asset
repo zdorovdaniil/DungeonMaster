@@ -79,4 +79,5 @@ MonoBehaviour:
   - DungeonFailGenerated
   - SetStatusObjects
   - SendDamageDestroyObject
+  - GetRequestToSetPosition
   DisableAutoOpenWizard: 1

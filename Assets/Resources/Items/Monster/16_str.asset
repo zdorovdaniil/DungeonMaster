@@ -17,6 +17,8 @@ MonoBehaviour:
   Name: core
   MaxSizeSlot: 8
   Level: 1
+  CritChance: 0
+  CritValue: 0
   Attack: 0
   Armor: 0
   cost: 72
@@ -26,11 +28,7 @@ MonoBehaviour:
   PrefabItem: {fileID: 0}
   Buffs: []
   Improve: 0
-  neededAttr: 0
-  neededSkill: 0
-  neededLevel: 0
-  nameAttr: 
-  nameSkill: 
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
   _itemsForCraft:
   - {fileID: 11400000, guid: bb9a2bfb96792864ca92ea485d5e9ed8, type: 2}
   - {fileID: 11400000, guid: bb9a2bfb96792864ca92ea485d5e9ed8, type: 2}

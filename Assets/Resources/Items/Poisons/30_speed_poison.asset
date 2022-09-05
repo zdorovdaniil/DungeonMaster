@@ -29,10 +29,6 @@ MonoBehaviour:
   Buffs:
   - {fileID: 11400000, guid: b0340179926da6a47a1e1254fbf77f54, type: 2}
   Improve: 0
-  neededAttr: 0
-  neededSkill: 0
-  neededLevel: 0
-  nameAttr: 
-  nameSkill: 
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
   _itemsForCraft: []
   _craftDifficult: 0

@@ -25,7 +25,9 @@ using ExitGames.Client.Photon;
 public class RoomInfo
 {
     /// <summary>Used internally in lobby, to mark rooms that are no longer listed.</summary>
+
     public bool removedFromList { get; internal set; }
+    public bool IsStartGame;
 
     /// <summary>Backing field for property.</summary>
     private Hashtable customPropertiesField = new Hashtable();
@@ -238,7 +240,7 @@ public class RoomInfo
         {
             this.serverSideMasterClient = true;
             bool isUpdate = this.masterClientIdField != 0;
-            this.masterClientIdField = (int) propertiesToCache[GamePropertyKey.MasterClientId];
+            this.masterClientIdField = (int)propertiesToCache[GamePropertyKey.MasterClientId];
             if (isUpdate)
             {
                 PhotonNetwork.networkingPeer.UpdateMasterClient();

@@ -17,6 +17,8 @@ MonoBehaviour:
   Name: Monster Ring
   MaxSizeSlot: 1
   Level: 4
+  CritChance: 0
+  CritValue: 0
   Attack: 1
   Armor: 1
   cost: 1000
@@ -24,13 +26,8 @@ MonoBehaviour:
   m_ItemTupe: 2
   m_ArmorTupe: 6
   PrefabItem: {fileID: 0}
-  Buff: 0
+  Buffs: []
   Improve: 0
-  BuffValue: 0
-  BuffTime: 0
-  neededAttr: 0
-  neededSkill: 0
-  neededLevel: 0
-  nameAttr: 
-  nameSkill: 
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
   _itemsForCraft: []
+  _craftDifficult: 0

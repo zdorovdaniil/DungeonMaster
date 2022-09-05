@@ -17,6 +17,8 @@ MonoBehaviour:
   Name: bread
   MaxSizeSlot: 8
   Level: 1
+  CritChance: 0
+  CritValue: 0
   Attack: 0
   Armor: 0
   cost: 0
@@ -24,13 +26,8 @@ MonoBehaviour:
   m_ItemTupe: 1
   m_ArmorTupe: 0
   PrefabItem: {fileID: 0}
-  Buff: 1
+  Buffs: []
   Improve: 0
-  BuffValue: 10
-  BuffTime: 0
-  neededAttr: 0
-  neededSkill: 0
-  neededLevel: 1
-  nameAttr: 
-  nameSkill: 
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
   _itemsForCraft: []
+  _craftDifficult: 0

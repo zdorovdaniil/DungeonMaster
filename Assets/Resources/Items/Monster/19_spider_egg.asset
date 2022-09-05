@@ -17,6 +17,8 @@ MonoBehaviour:
   Name: Spider Egg
   MaxSizeSlot: 4
   Level: 3
+  CritChance: 0
+  CritValue: 0
   Attack: 0
   Armor: 0
   cost: 50
@@ -27,10 +29,6 @@ MonoBehaviour:
   Buffs:
   - {fileID: 11400000, guid: f89d96de34ac49345be88160b38ade06, type: 2}
   Improve: 0
-  neededAttr: 0
-  neededSkill: 0
-  neededLevel: 0
-  nameAttr: 
-  nameSkill: 
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
   _itemsForCraft: []
   _craftDifficult: 0

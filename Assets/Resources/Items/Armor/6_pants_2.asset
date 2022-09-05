@@ -17,6 +17,8 @@ MonoBehaviour:
   Name: Armored Pants
   MaxSizeSlot: 1
   Level: 2
+  CritChance: 0
+  CritValue: 0
   Attack: 0
   Armor: 3
   cost: 150
@@ -27,11 +29,7 @@ MonoBehaviour:
     type: 3}
   Buffs: []
   Improve: 0
-  neededAttr: 0
-  neededSkill: 0
-  neededLevel: 0
-  nameAttr: 
-  nameSkill: 
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
   _itemsForCraft:
   - {fileID: 11400000, guid: 2dd4af8cfd4e6bb47a6e2ceed94e7f05, type: 2}
   - {fileID: 11400000, guid: 2dd4af8cfd4e6bb47a6e2ceed94e7f05, type: 2}
