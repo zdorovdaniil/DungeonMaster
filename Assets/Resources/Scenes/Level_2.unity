@@ -315,7 +315,7 @@ PrefabInstance:
     - target: {fileID: 1865215005415432719, guid: ffd3e66d4df2a554fb995d41f7ffe4c2,
         type: 3}
       propertyPath: _defaultItemsInChest.Array.size
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1865215005415432719, guid: ffd3e66d4df2a554fb995d41f7ffe4c2,
         type: 3}
@@ -352,6 +352,30 @@ PrefabInstance:
       propertyPath: _defaultItemsInChest.Array.data[5]
       value: 
       objectReference: {fileID: 11400000, guid: 3730b10672f3fc042b6be6ccc4304663,
+        type: 2}
+    - target: {fileID: 1865215005415432719, guid: ffd3e66d4df2a554fb995d41f7ffe4c2,
+        type: 3}
+      propertyPath: _defaultItemsInChest.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: e37824e6a05b87d489cee7731e54acf9,
+        type: 2}
+    - target: {fileID: 1865215005415432719, guid: ffd3e66d4df2a554fb995d41f7ffe4c2,
+        type: 3}
+      propertyPath: _defaultItemsInChest.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: e37824e6a05b87d489cee7731e54acf9,
+        type: 2}
+    - target: {fileID: 1865215005415432719, guid: ffd3e66d4df2a554fb995d41f7ffe4c2,
+        type: 3}
+      propertyPath: _defaultItemsInChest.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: e37824e6a05b87d489cee7731e54acf9,
+        type: 2}
+    - target: {fileID: 1865215005415432719, guid: ffd3e66d4df2a554fb995d41f7ffe4c2,
+        type: 3}
+      propertyPath: _defaultItemsInChest.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: e37824e6a05b87d489cee7731e54acf9,
         type: 2}
     - target: {fileID: 6666572244881164596, guid: ffd3e66d4df2a554fb995d41f7ffe4c2,
         type: 3}
@@ -415,7 +439,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436378710}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.5, z: 0}
+  m_LocalPosition: {x: 0, y: -30, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -433,8 +457,8 @@ GameObject:
   - component: {fileID: 582235208}
   - component: {fileID: 582235210}
   - component: {fileID: 582235209}
-  - component: {fileID: 582235207}
   - component: {fileID: 582235211}
+  - component: {fileID: 582235207}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameManager
@@ -2441,6 +2465,12 @@ PrefabInstance:
       propertyPath: _bloodHit
       value: 
       objectReference: {fileID: 1850033487435682, guid: 2c4b2397ab17cce4bae0e99c1004869d,
+        type: 3}
+    - target: {fileID: 574971119640578455, guid: b0ca315d107913144a3d500e995ba4c7,
+        type: 3}
+      propertyPath: _flyingSlash
+      value: 
+      objectReference: {fileID: 7475097860177236339, guid: ef689d1a7e45d6b499c5bcdc20e1ea64,
         type: 3}
     - target: {fileID: 574971119640578455, guid: b0ca315d107913144a3d500e995ba4c7,
         type: 3}

@@ -2433,6 +2433,7 @@ GameObject:
   - component: {fileID: 2930134370456801899}
   - component: {fileID: 3512711145007883135}
   - component: {fileID: 2921319563744287812}
+  - component: {fileID: 6970868313283141566}
   m_Layer: 0
   m_Name: E_Mini_Kikimora
   m_TagString: Enemy
@@ -2716,6 +2717,22 @@ MonoBehaviour:
     InterpolateOption: 0
     InterpolateMoveTowardsSpeed: 1
     InterpolateLerpSpeed: 0
+--- !u!114 &6970868313283141566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7865502011356166492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cca15f37e1a68d8419ad7be2ac2b68d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _particlePlaeces: {fileID: 3074936572908535550}
+  _weaponParticle: {fileID: 0}
+  _jercParticle: {fileID: 0}
+  _flyingSlash: {fileID: 0}
 --- !u!1 &8006899967015305636
 GameObject:
   m_ObjectHideFlags: 0

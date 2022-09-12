@@ -4696,6 +4696,7 @@ GameObject:
   - component: {fileID: 5943396416449201498}
   - component: {fileID: 2138759441585908646}
   - component: {fileID: 8804561274352551193}
+  - component: {fileID: 3479427284765550687}
   m_Layer: 0
   m_Name: FireBall
   m_TagString: Untagged
@@ -4735,7 +4736,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _timeToDestruct: 5
   StartSpeed: 24
-  _effectOnHit: 0
+  _destroyOnTrigger: 0
+  _includeToObjectOnTrigger: 0
+  _effectOnHit: 1
   _flyTrail: {fileID: 0}
   _hitSound: {fileID: 0}
   EventOnHitTag:
@@ -4753,6 +4756,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3479427284765550687}
+        m_TargetAssemblyTypeName: DestroyWithDelay, Assembly-CSharp
+        m_MethodName: StartTick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _isActivingOneTime: 1
 --- !u!54 &1025328027174659901
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4787,8 +4803,19 @@ MonoBehaviour:
   enemyStats: {fileID: 0}
   EventOnHitTag:
     m_PersistentCalls:
-      m_Calls: []
-  tagValue: 
+      m_Calls:
+      - m_Target: {fileID: 1025328027174659843}
+        m_TargetAssemblyTypeName: DamageZone, Assembly-CSharp
+        m_MethodName: SwitchActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2578727292697974453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4925,6 +4952,21 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &3479427284765550687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025328027174659903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60b2ab397e8d7547869576e00cfeea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timeToDestroy: 0.5
+  _gameObject: {fileID: 0}
+  _tickWithStart: 0
 --- !u!1 &1181784719472992390
 GameObject:
   m_ObjectHideFlags: 0

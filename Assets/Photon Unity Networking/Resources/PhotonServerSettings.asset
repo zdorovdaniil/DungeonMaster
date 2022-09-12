@@ -80,4 +80,6 @@ MonoBehaviour:
   - SetStatusObjects
   - SendDamageDestroyObject
   - GetRequestToSetPosition
+  - AddBuffEnemy
+  - AddBuffPlayer
   DisableAutoOpenWizard: 1

@@ -1969,6 +1969,8 @@ MonoBehaviour:
   - {fileID: 5492317340596678516}
   - {fileID: 6099824427048138768}
   - {fileID: 3480555312083906684}
+  _buffForEnemyes:
+  - {fileID: 11400000, guid: 674bf520151dbed47ba8a448faa7e0be, type: 2}
   _spawnPointsForEnemy:
   - {fileID: 9198681808018937576}
   - {fileID: 792679282692417494}
