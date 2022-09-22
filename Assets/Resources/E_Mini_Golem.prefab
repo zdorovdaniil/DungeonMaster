@@ -115,7 +115,7 @@ MonoBehaviour:
   _buffs: []
   playerStats: {fileID: 0}
   enemyStats: {fileID: 1252435313479011923}
-  Event:
+  EventOnHitTag:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &1252435313479011921
@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 1252435313479010734}
   - component: {fileID: 1252435313479010735}
   - component: {fileID: 4710576123210673291}
+  - component: {fileID: 9061630964553208109}
   m_Layer: 0
   m_Name: E_Mini_Golem
   m_TagString: Enemy
@@ -345,6 +346,19 @@ MonoBehaviour:
   _idle: []
   _hearth: []
   _takeDrop: []
+--- !u!114 &9061630964553208109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1252435313479011921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1af7b827a2c51409766ea87848d95a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyUI: {fileID: 1335064871918120633}
 --- !u!1 &1252435314765293736
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,7 +475,7 @@ MonoBehaviour:
   _buffs: []
   playerStats: {fileID: 0}
   enemyStats: {fileID: 1252435313479011923}
-  Event:
+  EventOnHitTag:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &2226695711038524412

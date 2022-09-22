@@ -985,7 +985,6 @@ MonoBehaviour:
   EventOnHitTag:
     m_PersistentCalls:
       m_Calls: []
-  tagValue: 
 --- !u!1 &7200389530639914849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1005,6 +1004,7 @@ GameObject:
   - component: {fileID: 6996424848759841777}
   - component: {fileID: 5979941653909514265}
   - component: {fileID: 6591758518704438329}
+  - component: {fileID: 6960299325944088704}
   m_Layer: 0
   m_Name: E_Skelet
   m_TagString: Enemy
@@ -1311,6 +1311,19 @@ MonoBehaviour:
   _weaponParticle: {fileID: 0}
   _jercParticle: {fileID: 0}
   _flyingSlash: {fileID: 0}
+--- !u!114 &6960299325944088704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7200389530639914849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1af7b827a2c51409766ea87848d95a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyUI: {fileID: 7799948880766485042}
 --- !u!1 &7626489335307724453
 GameObject:
   m_ObjectHideFlags: 0

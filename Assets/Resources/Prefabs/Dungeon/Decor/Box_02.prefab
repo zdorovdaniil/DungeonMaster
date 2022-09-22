@@ -112,10 +112,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _objectHp: 10
-  _soundOnDestroy: 0
+  _soundOnHit: 1
   _destroyObjects: []
   _onDestroyObject:
     m_PersistentCalls:
       m_Calls: []
-  Chunk: {fileID: 0}
-  Id: 0
+  _interiorSelecter: {fileID: 0}
+  _id: 0

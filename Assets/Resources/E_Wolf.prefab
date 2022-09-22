@@ -579,7 +579,7 @@ MonoBehaviour:
   _buffs: []
   playerStats: {fileID: 0}
   enemyStats: {fileID: 6275079782431115888}
-  Event:
+  EventOnHitTag:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &4648927894220449520
@@ -857,6 +857,7 @@ GameObject:
   - component: {fileID: 290154432565974039}
   - component: {fileID: 9101998693120119729}
   - component: {fileID: 333631496385773048}
+  - component: {fileID: 1597477791747631787}
   m_Layer: 0
   m_Name: E_Wolf
   m_TagString: Enemy
@@ -1070,6 +1071,19 @@ MonoBehaviour:
   - {fileID: 6926290456745381575}
   _hearth: []
   _takeDrop: []
+--- !u!114 &1597477791747631787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6275079782431115896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1af7b827a2c51409766ea87848d95a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyUI: {fileID: 3841266243231457297}
 --- !u!1 &6288705237728808514
 GameObject:
   m_ObjectHideFlags: 0

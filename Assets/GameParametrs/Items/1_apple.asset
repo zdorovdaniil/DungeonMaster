@@ -21,7 +21,7 @@ MonoBehaviour:
   CritValue: 0
   Attack: 0
   Armor: 0
-  cost: 2
+  cost: 10
   Features: 
   m_ItemTupe: 1
   m_ArmorTupe: 0

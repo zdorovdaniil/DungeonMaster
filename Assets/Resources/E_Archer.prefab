@@ -522,7 +522,6 @@ MonoBehaviour:
   EventOnHitTag:
     m_PersistentCalls:
       m_Calls: []
-  tagValue: 
 --- !u!1 &6317132031595258076
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,6 +799,7 @@ GameObject:
   - component: {fileID: 8366608467808915828}
   - component: {fileID: 4363607193577169430}
   - component: {fileID: 6980394983921573244}
+  - component: {fileID: 6481013130302988377}
   m_Layer: 0
   m_Name: E_Archer
   m_TagString: Enemy
@@ -1101,6 +1101,19 @@ MonoBehaviour:
   _weaponParticle: {fileID: 0}
   _jercParticle: {fileID: 0}
   _flyingSlash: {fileID: 0}
+--- !u!114 &6481013130302988377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7200389530639914849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1af7b827a2c51409766ea87848d95a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyUI: {fileID: 6625798633635488613}
 --- !u!1 &8118270820934779010
 GameObject:
   m_ObjectHideFlags: 0

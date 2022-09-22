@@ -300,7 +300,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -324,6 +324,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1987,7 +1999,6 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       weapons_sheet_52: -6946626511422587428
-      weapons_sheet_76: 2297106987407214616
       weapons_sheet_40: 3382225318703945308
       weapons_sheet_57: -8590962069192620290
       weapons_sheet_77: -1326373899999425389
@@ -2000,8 +2011,9 @@ TextureImporter:
       weapons_sheet_30: -8023936646994599611
       weapons_sheet_67: 4033848075776915609
       weapons_sheet_54: 7685058758076585838
-      weapons_sheet_64: -1488594954175037458
+      weapons_sheet_71: 5489209062142651267
       weapons_sheet_14: -508185513879098608
+      weapons_sheet_64: -1488594954175037458
       weapons_sheet_59: -2522387099814865142
       weapons_sheet_42: -3631837197670493895
       weapons_sheet_26: 1708473620529770711
@@ -2019,20 +2031,20 @@ TextureImporter:
       weapons_sheet_18: 4956043193493584100
       weapons_sheet_60: 5374227310727866684
       weapons_sheet_20: 1647070678816611351
-      weapons_sheet_71: 5489209062142651267
       weapons_sheet_28: 6480415338960225387
-      weapons_sheet_31: -5720662300098058433
       weapons_sheet_73: -8263965536171714934
+      weapons_sheet_76: 2297106987407214616
       weapons_sheet_7: -6936591584379012936
-      weapons_sheet_27: -3465046620579284517
       weapons_sheet_1: 6198757020208089172
       weapons_sheet_23: -2256224171859341560
       weapons_sheet_36: -7797943927681854061
-      weapons_sheet_2: 9041724597098335126
-      weapons_sheet_46: -5264180335739920293
+      weapons_sheet_27: -3465046620579284517
+      weapons_sheet_31: -5720662300098058433
       weapons_sheet_72: -3207654893744159442
-      weapons_sheet_75: -5066807093626077321
+      weapons_sheet_2: 9041724597098335126
       weapons_sheet_53: 4602827145337491315
+      weapons_sheet_46: -5264180335739920293
+      weapons_sheet_75: -5066807093626077321
       weapons_sheet_9: -9131961684963669122
       weapons_sheet_10: 165396039959195327
       weapons_sheet_37: -1923415703697998711

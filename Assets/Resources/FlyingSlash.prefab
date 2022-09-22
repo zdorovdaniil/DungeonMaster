@@ -4921,6 +4921,7 @@ GameObject:
   - component: {fileID: 1457824072859541593}
   - component: {fileID: 724601883533705925}
   - component: {fileID: 9073148796764070467}
+  - component: {fileID: 8011938528155956481}
   m_Layer: 0
   m_Name: FlyingSlash
   m_TagString: Untagged
@@ -10018,6 +10019,22 @@ MonoBehaviour:
   _chanceSpawn: 100
   _yChangeCoord: 0
   _zRoration: 0
+--- !u!114 &8011938528155956481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7475097860177236339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b557e3dd0d7e3b741aaaeb2d93007b59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sounds:
+  - {fileID: 0}
+  _runAtStart: 0
+  _runWithDelay: 0.1
 --- !u!1 &7862092299816359923
 GameObject:
   m_ObjectHideFlags: 0

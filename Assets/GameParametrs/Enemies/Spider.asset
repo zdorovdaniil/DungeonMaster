@@ -16,15 +16,20 @@ MonoBehaviour:
   m_EnemyType: 0
   Icon: {fileID: 0}
   Name: spider
+  Features: 
+  _multiplierPerLvl: 0.1
+  _coinsDrop: 0
+  _expGet: 0
   _strenght: 15
   _agility: 20
   _endurance: 7
   _speed: 15
   _attackWeapon: 4
   _armorEquip: 5
+  _critChance: 2
+  _critValue: 100
+  _buffChance: 10
   timeResetHit: 0.5
-  _multiplierPerLvl: 0.1
-  Features: 
   PrefabEnemy: {fileID: 1922219223831764338, guid: 2ab6a528270b1634c8edacfb308c214d,
     type: 3}
   IsBoss: 0
@@ -32,4 +37,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2dd4af8cfd4e6bb47a6e2ceed94e7f05, type: 2}
   - {fileID: 11400000, guid: 1f89d2bb58d733748bd262d4d7fd5dac, type: 2}
   AlwaysObjectsDrop: []
-  CoinsDrop: 0
+  RandomBuffAvaibles:
+  - {fileID: 11400000, guid: 66b73da7e501ada43b92f60f1027f738, type: 2}
+  - {fileID: 11400000, guid: d907326b2f8431c44ba08693dc86ab3d, type: 2}

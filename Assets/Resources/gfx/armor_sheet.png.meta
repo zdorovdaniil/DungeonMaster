@@ -228,7 +228,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -252,6 +252,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1442,9 +1454,9 @@ TextureImporter:
       armor_sheet_33: 7454945707837427141
       armor_sheet_14: -6591380302367865419
       armor_sheet_0: -8419546304635762935
-      armor_sheet_16: -7493465997382966802
       armor_sheet_51: -8622403547831262103
       armor_sheet_7: 6520110406891526256
+      armor_sheet_16: -7493465997382966802
       armor_sheet_30: -335988750572238820
       armor_sheet_45: -3049810859432812353
       armor_sheet_28: -65916555411123411

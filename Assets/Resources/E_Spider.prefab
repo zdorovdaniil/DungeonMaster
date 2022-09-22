@@ -1805,6 +1805,7 @@ GameObject:
   - component: {fileID: 5386850330339720150}
   - component: {fileID: 8724888860772961029}
   - component: {fileID: 7048310862598056400}
+  - component: {fileID: 5229821353001765616}
   m_Layer: 0
   m_Name: E_Spider
   m_TagString: Enemy
@@ -2066,6 +2067,19 @@ MonoBehaviour:
   _chanceSpawn: 50
   _yChangeCoord: 0
   _zRoration: 0
+--- !u!114 &5229821353001765616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922219223831764338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1af7b827a2c51409766ea87848d95a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyUI: {fileID: 1855769134399633964}
 --- !u!1 &1922219223831764340
 GameObject:
   m_ObjectHideFlags: 0
@@ -2277,7 +2291,7 @@ MonoBehaviour:
   _buffs: []
   playerStats: {fileID: 0}
   enemyStats: {fileID: 1922219223831764348}
-  Event:
+  EventOnHitTag:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &3134032631188462127
@@ -2328,7 +2342,7 @@ MonoBehaviour:
   _buffs: []
   playerStats: {fileID: 0}
   enemyStats: {fileID: 0}
-  Event:
+  EventOnHitTag:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &4609181618794318134
