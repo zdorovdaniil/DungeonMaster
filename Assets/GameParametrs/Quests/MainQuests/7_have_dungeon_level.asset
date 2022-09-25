@@ -10,22 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2cff1085ba495e04eb58e7d03a8115fa, type: 3}
-  m_Name: 9_quest
+  m_Name: 7_have_dungeon_level
   m_EditorClassIdentifier: 
-  Id: 9
-  Name: serch key
-  Description: 
-  RewardText: none
+  Id: 7
+  Name: have dungeon level
+  Description: have a maximum dungeon level
+  RewardText: 'item: 1 - crown of dungeon
+
+'
   isInOnlyDungeon: 0
-  isMainQuest: 0
-  m_QuestType: 15
-  m_PriceType: 0
+  isMainQuest: 1
+  m_QuestType: 12
+  m_PriceType: 4
   priceValue: 0
-  priceItems: []
+  priceItems:
+  - {fileID: 11400000, guid: d2dfdd935b7c48e43b7bd731a28401b6, type: 2}
   numberSkillorAtt: 0
   NeededCompletedQuests: []
-  neededProgress: 1
-  progressStatus: 1
-  isComplete: 1
+  neededProgress: 3
+  progressStatus: 5
+  IsCompletePermanent: 0
+  isComplete: 0
   EnemyType: {fileID: 0}
-  ItemQuest: {fileID: 11400000, guid: b00a86168e29090448d4eb4aa0cb5c6f, type: 2}
+  ItemQuest: {fileID: 0}

@@ -10,22 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2cff1085ba495e04eb58e7d03a8115fa, type: 3}
-  m_Name: 0_quest
+  m_Name: 5_search_item
   m_EditorClassIdentifier: 
-  Id: 0
-  Name: get level
-  Description: reach character level 2
-  RewardText: 'coins: 200'
-  isInOnlyDungeon: 0
-  isMainQuest: 1
-  m_QuestType: 11
+  Id: 5
+  Name: search item
+  Description: 'collect:  2 - bone from monsters
+
+'
+  RewardText: 'coins: 50'
+  isInOnlyDungeon: 1
+  isMainQuest: 0
+  m_QuestType: 6
   m_PriceType: 1
-  priceValue: 200
+  priceValue: 50
   priceItems: []
   numberSkillorAtt: 0
   NeededCompletedQuests: []
-  neededProgress: 2
-  progressStatus: 5
-  isComplete: 1
+  neededProgress: 1
+  progressStatus: 0
+  IsCompletePermanent: 0
+  isComplete: 0
   EnemyType: {fileID: 0}
-  ItemQuest: {fileID: 0}
+  ItemQuest: {fileID: 11400000, guid: bb9a2bfb96792864ca92ea485d5e9ed8, type: 2}

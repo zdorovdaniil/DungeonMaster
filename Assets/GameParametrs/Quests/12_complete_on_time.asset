@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2cff1085ba495e04eb58e7d03a8115fa, type: 3}
-  m_Name: 3_quest
+  m_Name: 12_complete_on_time
   m_EditorClassIdentifier: 
-  Id: 3
-  Name: open chests
-  Description: open 3 chest in the dungeon
-  RewardText: 'item: 1 - magic stone '
+  Id: 12
+  Name: complete dungeon on time
+  Description: reach the end of the dungeon level before the specified time
+  RewardText: 'item: 4 - magic stone'
   isInOnlyDungeon: 1
   isMainQuest: 0
-  m_QuestType: 4
+  m_QuestType: 2
   m_PriceType: 4
   priceValue: 0
-  priceItems:
-  - {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}
+  priceItems: []
   numberSkillorAtt: 0
   NeededCompletedQuests: []
-  neededProgress: 3
-  progressStatus: 1
+  neededProgress: 150
+  progressStatus: 0
+  IsCompletePermanent: 0
   isComplete: 0
   EnemyType: {fileID: 0}
-  ItemQuest: {fileID: 0}
+  ItemQuest: {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}

@@ -2062,7 +2062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a0080d80fd032644866f40ec7a151fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _effectType: 3
+  _effectType: 4
   _transform: {fileID: 6442888306681114515}
   _chanceSpawn: 50
   _yChangeCoord: 0

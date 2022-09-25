@@ -10,22 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2cff1085ba495e04eb58e7d03a8115fa, type: 3}
-  m_Name: 2_quest
+  m_Name: 3_open_chests
   m_EditorClassIdentifier: 
-  Id: 2
-  Name: kill enemyes
-  Description: kill 2-simple skelets  in the dungeon
-  RewardText: 'speed attribute: + 1'
+  Id: 3
+  Name: open chests
+  Description: open 3 chest in the dungeon
+  RewardText: 'item: 1 - magic stone '
   isInOnlyDungeon: 1
   isMainQuest: 0
-  m_QuestType: 5
-  m_PriceType: 3
-  priceValue: 1
-  priceItems: []
-  numberSkillorAtt: 3
+  m_QuestType: 4
+  m_PriceType: 4
+  priceValue: 0
+  priceItems:
+  - {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}
+  numberSkillorAtt: 0
   NeededCompletedQuests: []
-  neededProgress: 2
+  neededProgress: 3
   progressStatus: 0
+  IsCompletePermanent: 0
   isComplete: 0
-  EnemyType: {fileID: 11400000, guid: 7db54136d9c86aa4ab315d2618846deb, type: 2}
+  EnemyType: {fileID: 0}
   ItemQuest: {fileID: 0}

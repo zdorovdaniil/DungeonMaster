@@ -23,7 +23,7 @@ MonoBehaviour:
   Armor: 0
   cost: 1
   Features: 'Buff speed move: +3'
-  m_ItemTupe: 5
+  m_ItemTupe: 4
   m_ArmorTupe: 0
   PrefabItem: {fileID: 0}
   Buffs:

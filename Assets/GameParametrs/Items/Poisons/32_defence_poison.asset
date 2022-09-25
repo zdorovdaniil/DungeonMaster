@@ -25,7 +25,7 @@ MonoBehaviour:
   Features: 'Buff
 
 '
-  m_ItemTupe: 5
+  m_ItemTupe: 4
   m_ArmorTupe: 0
   PrefabItem: {fileID: 0}
   Buffs:

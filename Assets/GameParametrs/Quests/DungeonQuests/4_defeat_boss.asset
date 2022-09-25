@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2cff1085ba495e04eb58e7d03a8115fa, type: 3}
-  m_Name: 8_quest
+  m_Name: 4_defeat_boss
   m_EditorClassIdentifier: 
-  Id: 8
-  Name: kill monsters
-  Description: destroy 200 enemyes in the entire game
-  RewardText: 'item: 1 - monsters ring'
-  isInOnlyDungeon: 0
-  isMainQuest: 1
-  m_QuestType: 13
+  Id: 4
+  Name: defeat boss
+  Description: defeat any enemy boss
+  RewardText: 'item: 1 - iron'
+  isInOnlyDungeon: 1
+  isMainQuest: 0
+  m_QuestType: 8
   m_PriceType: 4
-  priceValue: 0
+  priceValue: 1
   priceItems:
-  - {fileID: 11400000, guid: d2dfdd935b7c48e43b7bd731a28401b6, type: 2}
+  - {fileID: 11400000, guid: 53c64c532d8bb1e458012dddd224dca2, type: 2}
   numberSkillorAtt: 0
   NeededCompletedQuests: []
-  neededProgress: 200
-  progressStatus: 17
+  neededProgress: 1
+  progressStatus: 0
   isComplete: 0
   EnemyType: {fileID: 0}
   ItemQuest: {fileID: 0}
