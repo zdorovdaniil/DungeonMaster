@@ -16,10 +16,12 @@ MonoBehaviour:
   _factorBeetweedRooms: 30
   _factorStandartRooms: 70
   _factorBossRooms: 30
-  _factorBigRooms: 30
+  _factorBigRooms: 400
+  _factorAmbushRoom: 30
   _countRooms: 30
-  _percentEndRooms: 15.789474
-  _percentBeetweedRooms: 15.789474
-  _percentStandartRooms: 36.842106
-  _percentBossRooms: 15.789474
-  _percentBigRooms: 15.789474
+  _percentEndRooms: 6.122449
+  _percentBeetweedRooms: 6.122449
+  _percentStandartRooms: 14.285714
+  _percentBossRooms: 6.122449
+  _percentBigRooms: 6.122449
+  _percentAmbushRoom: 61.22449

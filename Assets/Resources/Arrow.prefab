@@ -114,19 +114,7 @@ MonoBehaviour:
   _hitSound: {fileID: 264044058788387244}
   EventOnHitTag:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1025328027174659843}
-        m_TargetAssemblyTypeName: DamageZone, Assembly-CSharp
-        m_MethodName: SwitchActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _isActivingOneTime: 1
 --- !u!54 &1025328027174659901
 Rigidbody:
@@ -175,7 +163,19 @@ MonoBehaviour:
   enemyStats: {fileID: 0}
   EventOnHitTag:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1025328027174659843}
+        m_TargetAssemblyTypeName: DamageZone, Assembly-CSharp
+        m_MethodName: SwitchActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2578727292697974453
 MonoBehaviour:
   m_ObjectHideFlags: 0

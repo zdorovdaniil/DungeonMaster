@@ -308,7 +308,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ac58f0d46750c44bacea5584f04c64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _attribute: {fileID: 0}
   _nameAttribute: {fileID: 4454163535558949982}
   _descruption: {fileID: 2764318544237411469}
   _level: {fileID: 1889701205303339137}
@@ -788,7 +787,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6602676085709075892}
         m_TargetAssemblyTypeName: AttributeButton, Assembly-CSharp
-        m_MethodName: UpAttribute
+        m_MethodName: ClickUpAttribute
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

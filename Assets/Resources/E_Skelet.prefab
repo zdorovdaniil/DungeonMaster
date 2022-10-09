@@ -1114,6 +1114,7 @@ MonoBehaviour:
   Arrow: {fileID: 0}
   isDeath: 0
   timeToResetKick: 0.8
+  RandomValueBetweenAttack: {x: 1.3, y: 2}
   timeBetweenAttack: 1.3
   attackDuration: 1.2
   speedRotation: 5

@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
   - component: {fileID: 6400000}
+  - component: {fileID: 3496738180350676202}
   m_Layer: 0
   m_Name: Cube.056
-  m_TagString: Untagged
+  m_TagString: BreakAbleItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -29,6 +30,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -19.999985, y: 0.000056028366, z: -70.00007}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -52,6 +54,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
@@ -96,3 +99,23 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300232, guid: 264cb9d00f961fc4a846e4e44177aa66, type: 3}
+--- !u!114 &3496738180350676202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ae45fab31c9a2141ba82abdd6c69c57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectHp: 15
+  _soundOnHit: 2
+  _destroyObjects: []
+  _onDestroyObject:
+    m_PersistentCalls:
+      m_Calls: []
+  _interiorSelecter: {fileID: 0}
+  _id: 0

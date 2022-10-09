@@ -21,7 +21,7 @@ MonoBehaviour:
   CritValue: 0
   Attack: 0
   Armor: 0
-  cost: 1
+  cost: 20
   Features: 'Buff speed move: +3'
   m_ItemTupe: 4
   m_ArmorTupe: 0

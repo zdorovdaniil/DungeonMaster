@@ -23,7 +23,7 @@ MonoBehaviour:
   Armor: 0
   cost: 25
   Features: 
-  m_ItemTupe: 0
+  m_ItemTupe: 7
   m_ArmorTupe: 0
   PrefabItem: {fileID: 0}
   Buffs: []
