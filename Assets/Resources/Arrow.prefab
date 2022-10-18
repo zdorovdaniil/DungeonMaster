@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6366878532253207886}
   - component: {fileID: 7601522479615470042}
   - component: {fileID: 1025328027174659902}
+  - component: {fileID: 5156749188994482354}
   - component: {fileID: 1025328027174659901}
   - component: {fileID: 1025328027174659900}
   - component: {fileID: 1025328027174659843}
@@ -107,15 +108,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _timeToDestruct: 5
   StartSpeed: 32
-  _destroyOnTrigger: 1
   _includeToObjectOnTrigger: 1
   _effectOnHit: 0
   _flyTrail: {fileID: 905652583733272479}
   _hitSound: {fileID: 264044058788387244}
   EventOnHitTag:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5156749188994482354}
+        m_TargetAssemblyTypeName: DisableMonobehavior, Assembly-CSharp
+        m_MethodName: Activate
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _isActivingOneTime: 1
+--- !u!114 &5156749188994482354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025328027174659903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98e26800f0f6e24b95f5d6529105b0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _delay: 0.5
+  components:
+  - {fileID: 1025328027174659843}
 --- !u!54 &1025328027174659901
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -12,6 +12,7 @@ TagManager:
   - Enemy
   - FxTemporaire
   - DestroyObject
+  - BreakAbleItem
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - ForMap
   - SolidAndMap
   - Wall
-  - 1
+  - NavMesh
   - 2
   - 3
   - 4

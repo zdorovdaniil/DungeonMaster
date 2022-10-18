@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2761a2d0d73da1849be7a6604b97b8de, type: 3}
   m_Name: DunConf1
   m_EditorClassIdentifier: Assembly-CSharp::DungeonConfig
-  _factorEndRooms: 30
-  _factorBeetweedRooms: 30
-  _factorStandartRooms: 70
-  _factorBossRooms: 30
-  _factorBigRooms: 400
-  _factorAmbushRoom: 30
+  _factorEndRooms: 1
+  _factorBeetweedRooms: 1
+  _factorStandartRooms: 1
+  _factorBossRooms: 1
+  _factorBigRooms: 1
+  _factorAmbushRoom: 100
   _countRooms: 30
-  _percentEndRooms: 6.122449
-  _percentBeetweedRooms: 6.122449
-  _percentStandartRooms: 14.285714
-  _percentBossRooms: 6.122449
-  _percentBigRooms: 6.122449
-  _percentAmbushRoom: 61.22449
+  _percentEndRooms: 0.95238096
+  _percentBeetweedRooms: 0.95238096
+  _percentStandartRooms: 0.95238096
+  _percentBossRooms: 0.95238096
+  _percentBigRooms: 0.95238096
+  _percentAmbushRoom: 95.2381

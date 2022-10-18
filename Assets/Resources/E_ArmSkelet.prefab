@@ -5640,6 +5640,8 @@ GameObject:
   - component: {fileID: 8907414937562343590}
   - component: {fileID: 4551576046658147453}
   - component: {fileID: 2518168937932639296}
+  - component: {fileID: 3555840446957828753}
+  - component: {fileID: 1359219343263528765}
   m_Layer: 0
   m_Name: E_ArmSkelet
   m_TagString: Enemy
@@ -5709,6 +5711,7 @@ MonoBehaviour:
   Arrow: {fileID: 0}
   isDeath: 0
   timeToResetKick: 0.8
+  RandomValueBetweenAttack: {x: 1.3, y: 1.3}
   timeBetweenAttack: 0.8
   attackDuration: 1
   speedRotation: 5
@@ -5765,6 +5768,7 @@ MonoBehaviour:
   ownershipTransfer: 0
   ObservedComponents:
   - {fileID: 8907414937562343594}
+  - {fileID: 1359219343263528765}
   ObservedComponentsFoldoutOpen: 1
   viewIdField: 0
   instantiationId: -1
@@ -5901,6 +5905,59 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyUI: {fileID: 7204414373340304708}
+--- !u!114 &3555840446957828753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8907414937562343591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cca15f37e1a68d8419ad7be2ac2b68d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _particlePlaeces: {fileID: 7762392509683287281}
+  _weaponParticle: {fileID: 561736111556551832, guid: 5df7c74c1b09a14449ee170d8aa6eda7,
+    type: 3}
+  _jercParticle: {fileID: 0}
+  _flyingSlash: {fileID: 0}
+--- !u!114 &1359219343263528765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8907414937562343591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters:
+  - Type: 4
+    SynchronizeType: 2
+    Name: Run
+  - Type: 4
+    SynchronizeType: 2
+    Name: Idle
+  - Type: 3
+    SynchronizeType: 2
+    Name: Attack
+  - Type: 4
+    SynchronizeType: 2
+    Name: Death
+  - Type: 9
+    SynchronizeType: 0
+    Name: Reset
+  - Type: 4
+    SynchronizeType: 2
+    Name: Hit
+  m_SynchronizeLayers:
+  - SynchronizeType: 0
+    LayerIndex: 0
 --- !u!1 &8907758773496697809
 GameObject:
   m_ObjectHideFlags: 0

@@ -232,6 +232,7 @@ MonoBehaviour:
   Arrow: {fileID: 0}
   isDeath: 0
   timeToResetKick: 1
+  RandomValueBetweenAttack: {x: 1.3, y: 1.3}
   timeBetweenAttack: 2
   attackDuration: 1.2
   speedRotation: 3
@@ -1925,7 +1926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a0080d80fd032644866f40ec7a151fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _effectType: 0
+  _effectType: 1
   _transform: {fileID: 43375002358080409}
   _chanceSpawn: 100
   _yChangeCoord: 0
@@ -1943,6 +1944,69 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyController: {fileID: 1252435313479010732}
+--- !u!114 &4688134442190524079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134955373827534280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownerId: 0
+  group: 0
+  OwnerShipWasTransfered: 0
+  prefixBackup: -1
+  synchronization: 3
+  onSerializeTransformOption: 3
+  onSerializeRigidBodyOption: 2
+  ownershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 7807946694441319464}
+  ObservedComponentsFoldoutOpen: 1
+  viewIdField: 0
+  instantiationId: -1
+  currentMasterID: -1
+  isRuntimeInstantiated: 0
+--- !u!114 &7807946694441319464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134955373827534280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters:
+  - Type: 4
+    SynchronizeType: 2
+    Name: Run
+  - Type: 4
+    SynchronizeType: 2
+    Name: Idle
+  - Type: 3
+    SynchronizeType: 2
+    Name: Attack
+  - Type: 4
+    SynchronizeType: 2
+    Name: Death
+  - Type: 9
+    SynchronizeType: 0
+    Name: Reset
+  - Type: 4
+    SynchronizeType: 2
+    Name: Hit
+  m_SynchronizeLayers:
+  - SynchronizeType: 0
+    LayerIndex: 0
 --- !u!4 &5868072162447195865 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4615661589126049344, guid: 61af7ae12179ce84e8ca1864b46d395e,

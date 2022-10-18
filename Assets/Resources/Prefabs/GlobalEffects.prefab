@@ -54,3 +54,10 @@ MonoBehaviour:
     type: 3}
   _swordSplash: {fileID: 561736111556551832, guid: 5df7c74c1b09a14449ee170d8aa6eda7,
     type: 3}
+  _hitParticle: {fileID: 5915122216121393911, guid: 939fff752021d9149917758e178c7242,
+    type: 3}
+  _swapHit: {fileID: 8923803224891401493, guid: 6660e391ef60276468f107ab90bb68c2,
+    type: 3}
+  _bloodHit: {fileID: 1850033487435682, guid: 2c4b2397ab17cce4bae0e99c1004869d, type: 3}
+  _flyingSlash: {fileID: 7475097860177236339, guid: ef689d1a7e45d6b499c5bcdc20e1ea64,
+    type: 3}

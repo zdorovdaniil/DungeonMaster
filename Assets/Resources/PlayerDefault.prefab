@@ -24530,7 +24530,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 585
+    m_Bits: 1609
   m_RenderingLayerMask: 1
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
@@ -42224,7 +42224,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 585
+    m_Bits: 1609
   m_RenderingLayerMask: 1
   m_Lightmapping: 1
   m_LightShadowCasterMode: 0
@@ -44897,7 +44897,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 17792
+    m_Bits: 384
   m_RenderingPath: 1
   m_TargetTexture: {fileID: 8400000, guid: 6e9ad9cc4b9c3e246ba4f26be20da304, type: 2}
   m_TargetDisplay: 1

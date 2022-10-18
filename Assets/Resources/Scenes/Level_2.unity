@@ -649,6 +649,7 @@ GameObject:
   - component: {fileID: 704824283}
   - component: {fileID: 704824284}
   - component: {fileID: 704824285}
+  - component: {fileID: 704824286}
   m_Layer: 0
   m_Name: Dungeon
   m_TagString: Untagged
@@ -809,6 +810,35 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 99e889895b390574c90ed5b2d8d9e01a, type: 2}
   - {fileID: 11400000, guid: 960665b44ecac5e449ef1e67d93cf269, type: 2}
   - {fileID: 11400000, guid: 43b804963c6d21843bbf59415b16c010, type: 2}
+--- !u!114 &704824286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704824279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 2
+  m_Size: {x: 284, y: 3, z: 284}
+  m_Center: {x: 0, y: 0, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.06666667
+  m_BuildHeightMesh: 0
+  m_NavMeshData: {fileID: 0}
 --- !u!1001 &885936928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2168,8 +2198,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7254918980086240138, guid: a77c61d55501ba3468a8eed55e7b8f32,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254918980086240138, guid: a77c61d55501ba3468a8eed55e7b8f32,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254918980086240138, guid: a77c61d55501ba3468a8eed55e7b8f32,
+        type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 2147483647
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a77c61d55501ba3468a8eed55e7b8f32, type: 3}
@@ -2313,7 +2353,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 17792
+    m_Bits: 384
   m_RenderingPath: 1
   m_TargetTexture: {fileID: 8400000, guid: b0cc7452150ec1d4d92a38ec8ab015bc, type: 2}
   m_TargetDisplay: 3
@@ -2514,30 +2554,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 574971119640578455, guid: b0ca315d107913144a3d500e995ba4c7,
-        type: 3}
-      propertyPath: _swapHit
-      value: 
-      objectReference: {fileID: 8923803224891401493, guid: 6660e391ef60276468f107ab90bb68c2,
-        type: 3}
-    - target: {fileID: 574971119640578455, guid: b0ca315d107913144a3d500e995ba4c7,
-        type: 3}
-      propertyPath: _bloodHit
-      value: 
-      objectReference: {fileID: 1850033487435682, guid: 2c4b2397ab17cce4bae0e99c1004869d,
-        type: 3}
-    - target: {fileID: 574971119640578455, guid: b0ca315d107913144a3d500e995ba4c7,
-        type: 3}
-      propertyPath: _flyingSlash
-      value: 
-      objectReference: {fileID: 7475097860177236339, guid: ef689d1a7e45d6b499c5bcdc20e1ea64,
-        type: 3}
-    - target: {fileID: 574971119640578455, guid: b0ca315d107913144a3d500e995ba4c7,
-        type: 3}
-      propertyPath: _hitParticle
-      value: 
-      objectReference: {fileID: 5915122216121393911, guid: 939fff752021d9149917758e178c7242,
-        type: 3}
     - target: {fileID: 1119016088611217041, guid: b0ca315d107913144a3d500e995ba4c7,
         type: 3}
       propertyPath: m_Name

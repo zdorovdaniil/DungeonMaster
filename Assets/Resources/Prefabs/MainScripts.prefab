@@ -46,6 +46,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e16f405a298303419f60b903f9a874a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _avaibleLanguages:
+  - {fileID: 11400000, guid: 761ea880c64d8704789718334362fb7b, type: 2}
+  - {fileID: 11400000, guid: 8e0ab6ecbaca9ce42897044e8a8e92d8, type: 2}
   AvaibleSkills:
   - {fileID: 11400000, guid: ff69730a75d219b4dae3e5166cd6f760, type: 2}
   - {fileID: 11400000, guid: 0730aff7aaa607b47b100199161e7001, type: 2}
@@ -85,10 +88,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioMixer: {fileID: 24100000, guid: 29612943a168b9745af7ddab86d29f3e, type: 2}
-  _soundsValue: 0
-  _musicValue: 0
-  _qualityLevel: 0
-  _isAlwayesNetwork: 0
 --- !u!114 &793456822335828768
 MonoBehaviour:
   m_ObjectHideFlags: 0
