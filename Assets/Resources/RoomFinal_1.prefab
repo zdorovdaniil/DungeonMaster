@@ -113,7 +113,7 @@ GameObject:
   - component: {fileID: 2979753640246954698}
   - component: {fileID: 1956321821756535289}
   m_Layer: 0
-  m_Name: ExitZone
+  m_Name: ExitZoneTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -704,7 +704,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63e103077bd57a149b0ecdd5eef56216, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _positionCoordinate: {x: 0, y: 0}
   _doorBlock: []
   DoorBlocks: []
   _isSupportRotation: 1
@@ -722,7 +721,7 @@ MonoBehaviour:
   WallL: {fileID: 6751830590631637723}
   WallD: {fileID: 6739995183271426345}
   _fog: {fileID: 8739746574611721484}
-  _floorMesh: {fileID: 85128996679224419}
+  _positionCoordinate: {x: 0, y: 0}
   _nearConnectedRooms: []
 --- !u!114 &3601352577165396236
 MonoBehaviour:
@@ -3260,12 +3259,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24fdce6beab16f549a5143dd4097b88c, type: 3}
---- !u!23 &85128996679224419 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 6552174084877828453, guid: 24fdce6beab16f549a5143dd4097b88c,
-    type: 3}
-  m_PrefabInstance: {fileID: 6612286743788866822}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2081615929460643105 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5125357416120358951, guid: 24fdce6beab16f549a5143dd4097b88c,

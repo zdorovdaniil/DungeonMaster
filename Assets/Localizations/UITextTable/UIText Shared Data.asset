@@ -1,0 +1,229 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UIText Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UIText
+  m_TableCollectionNameGuidString: 2c5499b53a186954dbd5ab237a4ee299
+  m_Entries:
+  - m_Id: 260903329792
+    m_Key: player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2138814865408
+    m_Key: storage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236674739920896
+    m_Key: player2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2161304849408000
+    m_Key: select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2161845600051200
+    m_Key: delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2162813880295424
+    m_Key: name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163450542088192
+    m_Key: level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163757464477696
+    m_Key: STR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164116295573504
+    m_Key: END
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164339600318464
+    m_Key: SPE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164511369650176
+    m_Key: AGI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178123341553664
+    m_Key: selectProfile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2739899506417664
+    m_Key: storag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2742597786066944
+    m_Key: shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2742988724559872
+    m_Key: crafting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2743201526767616
+    m_Key: startGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2873936254394368
+    m_Key: settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2874135605469184
+    m_Key: changeSlot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2874812025069568
+    m_Key: inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2875076970864640
+    m_Key: equip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2875326116716544
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2875495663067136
+    m_Key: server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2878511690604544
+    m_Key: playerStats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2879226643275776
+    m_Key: character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2879371657142272
+    m_Key: attributes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2879520244555776
+    m_Key: skills
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2879916153298944
+    m_Key: block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2880104775344128
+    m_Key: damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2880231795646464
+    m_Key: kickStr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2880516773437440
+    m_Key: health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2880835846725632
+    m_Key: regen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2881133235462144
+    m_Key: "combat\u042Btats"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2881382955933696
+    m_Key: all
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2881711780978688
+    m_Key: atr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2881947031101440
+    m_Key: buffs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2882854208724992
+    m_Key: itemsLeveling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2883505596719104
+    m_Key: selectDungeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2883753496862720
+    m_Key: createOwnRoom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2884119978369024
+    m_Key: JoinRoom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2884469011570688
+    m_Key: playersed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2884610007293952
+    m_Key: room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2885173788860416
+    m_Key: region
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3853211711365120
+    m_Key: graphicsQuality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3853506923257856
+    m_Key: regionServer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3853987208814592
+    m_Key: language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3866070600179712
+    m_Key: alwaysNetworkInGame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355012147601408
+    m_Key: back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355441027768320
+    m_Key: "\u0437"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4356146711027712
+    m_Key: kick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4357034460635136
+    m_Key: createRoom
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 2465389145690210400
+  references:
+    version: 2
+    RefIds:
+    - rid: 2465389145690210400
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1666033536627

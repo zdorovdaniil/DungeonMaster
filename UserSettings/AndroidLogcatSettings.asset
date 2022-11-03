@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "5d19ca560504",
     "m_SelectedPackage": {
-        "deviceId": "5d19ca560504",
-        "name": "com.Zdorov.Dungeon",
-        "processId": 11526,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,55 +11,31 @@
         {
             "deviceId": "5d19ca560504",
             "name": "com.Zdorov.Dungeon",
-            "processId": 20682,
-            "exited": true
-        },
-        {
-            "deviceId": "5d19ca560504",
-            "name": "com.Zdorov.Dungeon",
-            "processId": 29319,
-            "exited": true
-        },
-        {
-            "deviceId": "5d19ca560504",
-            "name": "com.Zdorov.Dungeon",
-            "processId": 9940,
-            "exited": true
-        },
-        {
-            "deviceId": "5d19ca560504",
-            "name": "com.Zdorov.Dungeon",
-            "processId": 29554,
-            "exited": true
-        },
-        {
-            "deviceId": "5d19ca560504",
-            "name": "com.Zdorov.Dungeon",
-            "processId": 32225,
-            "exited": false
-        },
-        {
-            "deviceId": "5d19ca560504",
-            "name": "com.Zdorov.Dungeon",
-            "processId": 7061,
-            "exited": false
-        },
-        {
-            "deviceId": "5d19ca560504",
-            "name": "com.Zdorov.Dungeon",
-            "processId": 8085,
-            "exited": false
-        },
-        {
-            "deviceId": "5d19ca560504",
-            "name": "com.Zdorov.Dungeon",
-            "processId": 8618,
-            "exited": false
-        },
-        {
-            "deviceId": "5d19ca560504",
-            "name": "com.Zdorov.Dungeon",
             "processId": 11526,
+            "exited": true
+        },
+        {
+            "deviceId": "5d19ca560504",
+            "name": "com.Zdorov.DungeonMaster",
+            "processId": 19352,
+            "exited": true
+        },
+        {
+            "deviceId": "5d19ca560504",
+            "name": "com.ZdorovCompany.DungeonMaster",
+            "processId": 21794,
+            "exited": true
+        },
+        {
+            "deviceId": "5d19ca560504",
+            "name": "com.miui.securitycenter",
+            "processId": 419,
+            "exited": true
+        },
+        {
+            "deviceId": "5d19ca560504",
+            "name": "com.miui.securitycenter",
+            "processId": 797,
             "exited": false
         }
     ],

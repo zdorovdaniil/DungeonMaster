@@ -89,7 +89,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63e103077bd57a149b0ecdd5eef56216, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _positionCoordinate: {x: 0, y: 0}
   _doorBlock: []
   DoorBlocks: []
   _isSupportRotation: 0
@@ -107,7 +106,7 @@ MonoBehaviour:
   WallL: {fileID: 4223206849679444146}
   WallD: {fileID: 5863090386477348623}
   _fog: {fileID: 3611751808718931507}
-  _floorMesh: {fileID: 0}
+  _positionCoordinate: {x: 0, y: 0}
   _nearConnectedRooms: []
 --- !u!114 &2125345575264911940
 MonoBehaviour:

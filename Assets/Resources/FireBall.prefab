@@ -4734,41 +4734,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5cf29d1abfa2914c81dc6543216410c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeToDestruct: 5
-  StartSpeed: 24
-  _destroyOnTrigger: 0
   _includeToObjectOnTrigger: 0
   _effectOnHit: 1
   _flyTrail: {fileID: 0}
   _hitSound: {fileID: 0}
-  EventOnHitTag:
+  _eventOnHit:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2110513711580941013}
-        m_TargetAssemblyTypeName: DestroyWithDelay, Assembly-CSharp
-        m_MethodName: StartTick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 3479427284765550687}
-        m_TargetAssemblyTypeName: DestroyWithDelay, Assembly-CSharp
-        m_MethodName: StartTick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   _isActivingOneTime: 1
+  _activateOnTags: 
+  _startSpeed: 15
+  _timeToDestruct: 5
 --- !u!54 &1025328027174659901
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UIText_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 2c5499b53a186954dbd5ab237a4ee299, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 260903329792
+    m_Localized: Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2138814865408
+    m_Localized: Storage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236674739920896
+    m_Localized: player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2161304849408000
+    m_Localized: Select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2161845600051200
+    m_Localized: Delete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2162813880295424
+    m_Localized: Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163450542088192
+    m_Localized: Level
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163757464477696
+    m_Localized: STR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164116295573504
+    m_Localized: END
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164339600318464
+    m_Localized: SPE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164511369650176
+    m_Localized: AGI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2178123341553664
+    m_Localized: select profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2739899506417664
+    m_Localized: Storage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2742597786066944
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2742988724559872
+    m_Localized: Crafting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2743201526767616
+    m_Localized: Start game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2873936254394368
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2874135605469184
+    m_Localized: Change slot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2874812025069568
+    m_Localized: Inventory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2875076970864640
+    m_Localized: Equip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2875495663067136
+    m_Localized: 'Server:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2878511690604544
+    m_Localized: Player stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2879226643275776
+    m_Localized: Character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2879371657142272
+    m_Localized: Attributes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2879520244555776
+    m_Localized: Skills
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2879916153298944
+    m_Localized: Block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2880104775344128
+    m_Localized: Damage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2880231795646464
+    m_Localized: kick str
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2880516773437440
+    m_Localized: Health
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2880835846725632
+    m_Localized: Regen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2881133235462144
+    m_Localized: combat stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2881382955933696
+    m_Localized: All
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2881711780978688
+    m_Localized: atr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2881947031101440
+    m_Localized: buff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2882854208724992
+    m_Localized: items for leveling
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2883505596719104
+    m_Localized: select dungeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2883753496862720
+    m_Localized: create own room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2884119978369024
+    m_Localized: join to room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2884469011570688
+    m_Localized: players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2884610007293952
+    m_Localized: name Room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2885173788860416
+    m_Localized: Region
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3853211711365120
+    m_Localized: Graphics Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3853506923257856
+    m_Localized: Region Server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3853987208814592
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3866070600179712
+    m_Localized: always network in game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4355012147601408
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4356146711027712
+    m_Localized: kick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4357034460635136
+    m_Localized: create room
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -17,12 +17,12 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 42f522008678bff46acce6f44b657b56
   m_SerializeEntries:
-  - m_GUID: b9d0bccf5675f0e468d0c830ae2b6791
+  - m_GUID: eeb9d28e03773cd4a9b2b9e580a77271
     m_Address: English (en)
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale
-  - m_GUID: 10300c102533fc541b8f4a7af45a8cbb
+  - m_GUID: 767406de7cfe64f4388e4318faae53b4
     m_Address: Russian (ru)
     m_ReadOnly: 1
     m_SerializedLabels:

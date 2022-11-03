@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _avaibleLanguages:
-  - {fileID: 11400000, guid: 761ea880c64d8704789718334362fb7b, type: 2}
-  - {fileID: 11400000, guid: 8e0ab6ecbaca9ce42897044e8a8e92d8, type: 2}
+  - {fileID: 11400000, guid: b4434c002f412ca4eaba520afc017bfe, type: 2}
+  - {fileID: 11400000, guid: ae34f9827515ed744a69697e55d41702, type: 2}
   AvaibleSkills:
   - {fileID: 11400000, guid: ff69730a75d219b4dae3e5166cd6f760, type: 2}
   - {fileID: 11400000, guid: 0730aff7aaa607b47b100199161e7001, type: 2}
@@ -75,6 +75,11 @@ MonoBehaviour:
   _matGrey: {fileID: 2100000, guid: 31ea6b8b15a8fa7408e040c0add2d46d, type: 2}
   _meshOpenedChest: {fileID: 4300000, guid: 5c509bc9e3ce92e418aac359ebdf4281, type: 3}
   _meshClosedChest: {fileID: 4300000, guid: 4b1205a7235860c479fc94aefe26ebf1, type: 3}
+  _nullImage: {fileID: 2800000, guid: 8f442319a0b77494d8510485590f055f, type: 3}
+  _crsCharacterTexture2D:
+  - {fileID: 2800000, guid: 19db5eda4178c2f40956c87033d44bc1, type: 3}
+  - {fileID: 2800000, guid: 88936ee301bdaef409e0b229d238db93, type: 3}
+  - {fileID: 2800000, guid: 63ea70349c6bdbe409be1754c9d644d3, type: 3}
 --- !u!114 &1094612447539391360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,6 +93,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioMixer: {fileID: 24100000, guid: 29612943a168b9745af7ddab86d29f3e, type: 2}
+  _localizationSettings: {fileID: 11400000, guid: 14ca111dacc5ef7459fe538b01f9edb0,
+    type: 2}
 --- !u!114 &793456822335828768
 MonoBehaviour:
   m_ObjectHideFlags: 0

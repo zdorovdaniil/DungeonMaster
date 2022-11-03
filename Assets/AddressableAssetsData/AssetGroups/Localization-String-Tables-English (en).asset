@@ -18,11 +18,10 @@ MonoBehaviour:
   m_GUID: 8aeb4d3c16725834c84259ede1973be3
   m_SerializeEntries:
   - m_GUID: 22744e3680f15ea489b2d4c69d6f05bd
-    m_Address: UI Text_en
+    m_Address: UIText_en
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
-    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 314df913fc6fb604daa15a8331d0baec, type: 2}
   m_SchemaSet:

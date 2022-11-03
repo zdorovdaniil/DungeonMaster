@@ -82,4 +82,9 @@ MonoBehaviour:
   - GetRequestToSetPosition
   - AddBuffEnemy
   - AddBuffPlayer
+  - TeleportTo
+  - SendToResetTriggerDoorBlock
+  - GetFirstNickName
+  - CompleteDungeon
+  - SetUIFromRules
   DisableAutoOpenWizard: 1
