@@ -71,7 +71,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2742597786066944
-    m_Localized: Shop
+    m_Localized: shop
     m_Metadata:
       m_Items: []
   - m_Id: 2742988724559872
@@ -208,6 +208,146 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 4357034460635136
     m_Localized: create room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6407662737350656
+    m_Localized: parametrs of dungeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6407901066092544
+    m_Localized: level of dungeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6408171137327104
+    m_Localized: num of Rooms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6408343841988608
+    m_Localized: additional quests
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6408553523634176
+    m_Localized: level of Enemyes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6408716325543936
+    m_Localized: modif spawn random items in chest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410163091988480
+    m_Localized: craft skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6411609313173504
+    m_Localized: chance of success
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6411989992398848
+    m_Localized: craft difficult
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6412930187583488
+    m_Localized: items needed to create
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6413936917012480
+    m_Localized: craft list
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6416185936371712
+    m_Localized: store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6416605903642624
+    m_Localized: trade skill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6416805950971904
+    m_Localized: buy factor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6417037107453952
+    m_Localized: sell Factor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6417255949459456
+    m_Localized: shop type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6423963828543488
+    m_Localized: Atr points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6424182808961024
+    m_Localized: skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6424451277971456
+    m_Localized: distribute free points in attributes and skills for a new character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6430038199951360
+    m_Localized: create character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6430371278020608
+    m_Localized: spending skills
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6745915063590912
+    m_Localized: shop improvements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6836261055422464
+    m_Localized: close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6840314594385920
+    m_Localized: improve list
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6841396158586880
+    m_Localized: upgrade craft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7235044213841920
+    m_Localized: lvl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7235211151335424
+    m_Localized: max lvl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7235422644920320
+    m_Localized: cost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7235939680968704
+    m_Localized: maximum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7237634750210048
+    m_Localized: enter your player name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7237796281245696
+    m_Localized: continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7238771876356096
+    m_Localized: '- 3 skill points for discovering a new skill
+
+
+      - 1 skill
+      point for improving an open skill'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7241395300261888
+    m_Localized: The cost of opening a new skill is equal to 3 skill points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7243750515204096
+    m_Localized: skill sheet
     m_Metadata:
       m_Items: []
   references:

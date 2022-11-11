@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5bedfdae35465c44a64cd948b75b765, type: 3}
+  m_Name: S_Wolf
+  m_EditorClassIdentifier: 
+  Id: 7
+  m_EnemyType: 0
+  Icon: {fileID: 0}
+  Name: monster wolf
+  Features: Simple Wolf
+  _multiplierPerLvl: 0.1
+  _coinsDrop: 0
+  _expGet: 0
+  _strenght: 5
+  _agility: 25
+  _endurance: 10
+  _speed: 25
+  _attackWeapon: 3
+  _armorEquip: 25
+  _critChance: 0
+  _critValue: 125
+  _buffChance: 3
+  timeResetHit: 0.5
+  PrefabEnemy: {fileID: 6275079782431115896, guid: 48759ae0d67472f438c1509f480f8266,
+    type: 3}
+  IsBoss: 0
+  RandomObjectsDrop:
+  - {fileID: 11400000, guid: 6af4a2a188ff46a4aaaab26fb7bb03af, type: 2}
+  AlwaysObjectsDrop: []
+  RandomBuffAvaibles:
+  - {fileID: 11400000, guid: f89d96de34ac49345be88160b38ade06, type: 2}
+  - {fileID: 11400000, guid: d907326b2f8431c44ba08693dc86ab3d, type: 2}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
+  m_Name: Pb_attack_poison
+  m_EditorClassIdentifier: 
+  Id: 23
+  Icon: {fileID: 2619602486311468636, guid: 3ad9eef9adfdca1439bf8bae56d48ca1, type: 3}
+  Name: Attack poison
+  MaxSizeSlot: 4
+  Level: 3
+  CritChance: 0
+  CritValue: 0
+  Attack: 0
+  Armor: 0
+  cost: 10
+  Features: 
+  m_ItemTupe: 4
+  m_ArmorTupe: 0
+  PrefabItem: {fileID: 0}
+  Buffs:
+  - {fileID: 11400000, guid: 674bf520151dbed47ba8a448faa7e0be, type: 2}
+  Improve: 0
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
+  _itemsForCraft: []
+  _craftDifficult: 0

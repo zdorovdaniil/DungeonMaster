@@ -2432,6 +2432,7 @@ GameObject:
   - component: {fileID: 2930134370456801899}
   - component: {fileID: 5301057371719331974}
   - component: {fileID: 1627616933210589786}
+  - component: {fileID: 1635186468489039041}
   m_Layer: 0
   m_Name: E_Big_Kikimora
   m_TagString: Enemy
@@ -2552,6 +2553,7 @@ MonoBehaviour:
   - {fileID: 8644562812902112392}
   timer: 0
   isFirstAttack: 1
+  isControlLocal: 0
 --- !u!114 &7865502011356166487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2650,6 +2652,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _enemyUI: {fileID: 1009455366483270389}
+--- !u!114 &1635186468489039041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7865502011356166492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cca15f37e1a68d8419ad7be2ac2b68d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _particlePlaeces: {fileID: 3786196035273497087}
+  _weaponParticle: {fileID: 0}
+  _jercParticle: {fileID: 0}
+  _flyingSlash: {fileID: 0}
 --- !u!1 &8230078315956273691
 GameObject:
   m_ObjectHideFlags: 0

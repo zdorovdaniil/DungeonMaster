@@ -215,6 +215,158 @@ MonoBehaviour:
     m_Key: createRoom
     m_Metadata:
       m_Items: []
+  - m_Id: 6407662737350656
+    m_Key: parametrsDungeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6407901066092544
+    m_Key: levelDungeon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6408171137327104
+    m_Key: numRooms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6408343841988608
+    m_Key: additionalQuests
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6408553523634176
+    m_Key: levelEnemyes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6408716325543936
+    m_Key: modifIitemsChest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6409867481636864
+    m_Key: craftin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6410163091988480
+    m_Key: craftSkill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6411609313173504
+    m_Key: chanceSuccess
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6411989992398848
+    m_Key: craftDifficult
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6412930187583488
+    m_Key: itemsCreate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6413936917012480
+    m_Key: craftList
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6415719282302976
+    m_Key: New Entry 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6416185936371712
+    m_Key: store
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6416605903642624
+    m_Key: tradeSkill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6416805950971904
+    m_Key: buyFactor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6417037107453952
+    m_Key: sellFactor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6417255949459456
+    m_Key: shopType
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6423963828543488
+    m_Key: Atr points
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6424182808961024
+    m_Key: skillPoints
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6424451277971456
+    m_Key: distribute
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6430038199951360
+    m_Key: createCharacter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6430371278020608
+    m_Key: spendingSkills
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6745915063590912
+    m_Key: shopImprovements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6746283310899200
+    m_Key: New Entry 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6836261055422464
+    m_Key: close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6840314594385920
+    m_Key: improveList
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6841396158586880
+    m_Key: upgradeCraft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7235044213841920
+    m_Key: lvl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7235211151335424
+    m_Key: max
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7235422644920320
+    m_Key: cost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7235705215180800
+    m_Key: "\u044C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7235939680968704
+    m_Key: maximum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7237634750210048
+    m_Key: enterName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7237796281245696
+    m_Key: continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7238771876356096
+    m_Key: ruleUpSkill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7241395300261888
+    m_Key: OpenSkillDescr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7243750515204096
+    m_Key: skillsSheet
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

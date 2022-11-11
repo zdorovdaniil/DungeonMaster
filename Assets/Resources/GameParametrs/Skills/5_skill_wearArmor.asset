@@ -15,7 +15,6 @@ MonoBehaviour:
   Id: 5
   Icon: {fileID: 21300000, guid: aab442a445b85a04b90d5c8c135f9b0f, type: 3}
   Name: wear armor
-  Description: The more this skill is, the less damage you will receive from the
-    attack
+  _descriptionText: {fileID: 11400000, guid: 610d1f94b70b52a4fbfd5a0a3daa0e25, type: 2}
   Level: 0
   MaxLevel: 20

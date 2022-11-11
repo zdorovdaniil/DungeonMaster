@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cff1085ba495e04eb58e7d03a8115fa, type: 3}
+  m_Name: DuQ_open_chests
+  m_EditorClassIdentifier: 
+  Id: 3
+  Name: open chests
+  Description: open 3 chest in the dungeon
+  RewardText: 'item: 1 - magic stone '
+  isInOnlyDungeon: 1
+  isMainQuest: 0
+  m_QuestType: 4
+  m_PriceType: 4
+  priceModificator: 1
+  priceValue: 0
+  priceItems:
+  - {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}
+  numberSkillorAtt: 0
+  NeededCompletedQuests: []
+  neededProgress: 3
+  progressStatus: 0
+  IsCompletePermanent: 0
+  isComplete: 0
+  EnemyType: {fileID: 0}
+  ItemQuest: {fileID: 0}

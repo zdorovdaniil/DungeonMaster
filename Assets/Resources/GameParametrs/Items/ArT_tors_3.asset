@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
+  m_Name: ArT_tors_3
+  m_EditorClassIdentifier: 
+  Id: 10
+  Icon: {fileID: -65916555411123411, guid: 37af0fdde3c51e3419b8e780edb92aee, type: 3}
+  Name: Armored Tors
+  MaxSizeSlot: 1
+  Level: 3
+  CritChance: 0
+  CritValue: 0
+  Attack: 0
+  Armor: 5
+  cost: 257
+  Features: 
+  m_ItemTupe: 2
+  m_ArmorTupe: 2
+  PrefabItem: {fileID: 919132149155446097, guid: 02528468b72e9474f9148484bffed988,
+    type: 3}
+  Buffs: []
+  Improve: 0
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
+  _itemsForCraft:
+  - {fileID: 11400000, guid: 53c64c532d8bb1e458012dddd224dca2, type: 2}
+  - {fileID: 11400000, guid: 53c64c532d8bb1e458012dddd224dca2, type: 2}
+  - {fileID: 11400000, guid: 53c64c532d8bb1e458012dddd224dca2, type: 2}
+  _craftDifficult: 0

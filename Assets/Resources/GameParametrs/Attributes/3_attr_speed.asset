@@ -15,8 +15,5 @@ MonoBehaviour:
   Id: 3
   Icon: {fileID: 0}
   Name: Speed
-  Description: This is a measure of how fast a character is able to perform actions.
-    Affects the "max HP" and the speed of regen of HP. 5 level of this attribute
-    increase the character's "Attack" dealt by 1.
-  Level: 0
+  _descriptionText: {fileID: 11400000, guid: 551d50ad30d661448a8bc1dc26e34832, type: 2}
   MaxLevel: 30

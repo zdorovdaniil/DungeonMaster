@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
+  m_Name: Drop_SpiderEgg
+  m_EditorClassIdentifier: 
+  Id: 19
+  Icon: {fileID: 21300000, guid: d62fc87d7e2c1d740b3afc4193abf641, type: 3}
+  Name: Spider Egg
+  MaxSizeSlot: 4
+  Level: 3
+  CritChance: 0
+  CritValue: 0
+  Attack: 0
+  Armor: 0
+  cost: 50
+  Features: 'Buff speed move: +3'
+  m_ItemTupe: 5
+  m_ArmorTupe: 0
+  PrefabItem: {fileID: 0}
+  Buffs:
+  - {fileID: 11400000, guid: f89d96de34ac49345be88160b38ade06, type: 2}
+  Improve: 0
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
+  _itemsForCraft: []
+  _craftDifficult: 0

@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f45ddafb77e3b44eac9e40df5993c87, type: 3}
   m_Name: 2_craftArmor
   m_EditorClassIdentifier: 
-  _id: 1
+  _id: 2
   _maxLvl: 2
-  _curLvl: 1
+  _curLvl: 2
   _startCost: 400
   _costModified: 1.25
-  _description: open crafts of standart armor
+  _description: {fileID: 11400000, guid: 4da9c7225c86f324895f82e967addf2c, type: 2}
   _unlockItems:
   - {fileID: 11400000, guid: 944b75fc4babe084396ce335c22ddc11, type: 2}
   - {fileID: 11400000, guid: acd7e05795519814b98a681a604e27ab, type: 2}
