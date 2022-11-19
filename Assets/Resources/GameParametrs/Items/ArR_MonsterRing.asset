@@ -21,10 +21,11 @@ MonoBehaviour:
   CritValue: 0
   Attack: 1
   Armor: 1
-  cost: 1000
-  Features: 
+  cost: 100
+  _descriptionText: {fileID: 0}
   m_ItemTupe: 2
   m_ArmorTupe: 6
+  IsSpawnInChest: 0
   PrefabItem: {fileID: 0}
   Buffs: []
   Improve: 0

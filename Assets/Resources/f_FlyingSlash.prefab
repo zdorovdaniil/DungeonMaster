@@ -9814,7 +9814,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _includeToObjectOnTrigger: 0
-  _effectOnHit: 0
+  _effectOnHit: 1
   _flyTrail: {fileID: 0}
   _hitSound: {fileID: 0}
   _eventOnHit:
@@ -9987,8 +9987,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f60b2ab397e8d7547869576e00cfeea5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeToDestroy: 0.2
-  _gameObject: {fileID: 0}
+  _timeToDestroy: 0.25
+  _gameObjects: []
   _tickWithStart: 0
 --- !u!114 &9073148796764070467
 MonoBehaviour:

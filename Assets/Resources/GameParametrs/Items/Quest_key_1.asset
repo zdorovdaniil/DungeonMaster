@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Quest_key_1
   m_EditorClassIdentifier: 
   Id: 28
-  Icon: {fileID: 21300000, guid: a6c10312421cb5e438d8b9edaad2db28, type: 3}
+  Icon: {fileID: 7031316388443915303, guid: 8b5065f95b60c4e49ade78a670edb6eb, type: 3}
   Name: Key 1
   MaxSizeSlot: 1
   Level: 5
@@ -22,9 +22,10 @@ MonoBehaviour:
   Attack: 0
   Armor: 0
   cost: 0
-  Features: 
+  _descriptionText: {fileID: 0}
   m_ItemTupe: 0
   m_ArmorTupe: 0
+  IsSpawnInChest: 1
   PrefabItem: {fileID: 0}
   Buffs: []
   Improve: 0

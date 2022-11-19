@@ -350,6 +350,10 @@ MonoBehaviour:
     m_Localized: skill sheet
     m_Metadata:
       m_Items: []
+  - m_Id: 9402923344519168
+    m_Localized: items level in chests
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

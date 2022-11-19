@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
+  m_Name: Cft_Mithril
+  m_EditorClassIdentifier: 
+  Id: 38
+  Icon: {fileID: 4618818219155507943, guid: 8b5065f95b60c4e49ade78a670edb6eb, type: 3}
+  Name: Mithril
+  MaxSizeSlot: 8
+  Level: 4
+  CritChance: 0
+  CritValue: 0
+  Attack: 0
+  Armor: 0
+  cost: 200
+  _descriptionText: {fileID: 0}
+  m_ItemTupe: 6
+  m_ArmorTupe: 0
+  IsSpawnInChest: 1
+  PrefabItem: {fileID: 0}
+  Buffs: []
+  Improve: 0
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
+  _itemsForCraft:
+  - {fileID: 11400000, guid: 2da18dbec8117204b8e9b62e3ce2c21a, type: 2}
+  - {fileID: 11400000, guid: 493609ba2ff48b44c91a476fd787df81, type: 2}
+  - {fileID: 11400000, guid: ba698fac81b33dd479a29fc3514c6cd2, type: 2}
+  _craftDifficult: 7

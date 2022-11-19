@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
+  m_Name: Cft_MagicIron
+  m_EditorClassIdentifier: 
+  Id: 34
+  Icon: {fileID: 3562599941609707613, guid: 8b5065f95b60c4e49ade78a670edb6eb, type: 3}
+  Name: Magic Iron
+  MaxSizeSlot: 8
+  Level: 3
+  CritChance: 0
+  CritValue: 0
+  Attack: 0
+  Armor: 0
+  cost: 72
+  _descriptionText: {fileID: 0}
+  m_ItemTupe: 6
+  m_ArmorTupe: 0
+  IsSpawnInChest: 1
+  PrefabItem: {fileID: 0}
+  Buffs: []
+  Improve: 0
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
+  _itemsForCraft:
+  - {fileID: 11400000, guid: 53c64c532d8bb1e458012dddd224dca2, type: 2}
+  - {fileID: 11400000, guid: 7e3506d54b5d16e49abd3abb281ad71d, type: 2}
+  - {fileID: 11400000, guid: e06c36fcec3b5c046b4ebf6c679f7e39, type: 2}
+  - {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}
+  _craftDifficult: 6

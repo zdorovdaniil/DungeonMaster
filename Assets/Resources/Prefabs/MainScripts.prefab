@@ -73,14 +73,11 @@ MonoBehaviour:
   - {fileID: -2292698533589896919, guid: 3618ef51110f4a746b4ccfb94302f7aa, type: 3}
   - {fileID: -5051152410008374243, guid: 3618ef51110f4a746b4ccfb94302f7aa, type: 3}
   - {fileID: 3209763070013878088, guid: 3618ef51110f4a746b4ccfb94302f7aa, type: 3}
-  _matGrey: {fileID: 2100000, guid: 31ea6b8b15a8fa7408e040c0add2d46d, type: 2}
+  _matGrey: {fileID: 2100000, guid: 5eec4322558e5fc4aae3b2d9c530f184, type: 2}
   _meshOpenedChest: {fileID: 4300000, guid: 5c509bc9e3ce92e418aac359ebdf4281, type: 3}
   _meshClosedChest: {fileID: 4300000, guid: 4b1205a7235860c479fc94aefe26ebf1, type: 3}
   _nullImage: {fileID: 2800000, guid: 8f442319a0b77494d8510485590f055f, type: 3}
-  _crsCharacterTexture2D:
-  - {fileID: 2800000, guid: 19db5eda4178c2f40956c87033d44bc1, type: 3}
-  - {fileID: 2800000, guid: 88936ee301bdaef409e0b229d238db93, type: 3}
-  - {fileID: 2800000, guid: 63ea70349c6bdbe409be1754c9d644d3, type: 3}
+  _crsCharacterTexture2D: []
 --- !u!114 &1094612447539391360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,25 +105,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 586178f5849f63f4c8aa202c1902afde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxAvaibleLvl: 0
-  LevelScore: 20030000e8030000dc050000c4090000b80b0000100e00006810000088130000a8160000901a0000dc1e00002823000010270000
-  ItemsFor3Level:
-  - {fileID: 11400000, guid: 2dd4af8cfd4e6bb47a6e2ceed94e7f05, type: 2}
-  - {fileID: 11400000, guid: 2dd4af8cfd4e6bb47a6e2ceed94e7f05, type: 2}
-  - {fileID: 11400000, guid: 2dd4af8cfd4e6bb47a6e2ceed94e7f05, type: 2}
-  - {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}
-  - {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}
-  - {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}
-  ItemsFor5Level:
-  - {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}
-  - {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}
-  - {fileID: 11400000, guid: 6af4a2a188ff46a4aaaab26fb7bb03af, type: 2}
-  - {fileID: 11400000, guid: b00a86168e29090448d4eb4aa0cb5c6f, type: 2}
-  - {fileID: 11400000, guid: b00a86168e29090448d4eb4aa0cb5c6f, type: 2}
-  - {fileID: 11400000, guid: b00a86168e29090448d4eb4aa0cb5c6f, type: 2}
-  ItemsFor7Level:
-  - {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}
-  - {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}
-  - {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}
-  - {fileID: 11400000, guid: f5dffb1d26218364984634aad233e56c, type: 2}
+  _maxAvaibleLvl: 16
+  LevelScore: f401000020030000e8030000dc050000d0070000c4090000b80b0000100e0000a00f0000a00f0000a00f000094110000881300007017000070170000581b0000
+  ItemsFor3Level: []
+  ItemsFor5Level: []
+  ItemsFor7Level: []
   ItemsFor9Level: []

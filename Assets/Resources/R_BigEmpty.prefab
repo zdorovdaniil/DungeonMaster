@@ -1624,7 +1624,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9d4c1765a007d3b47b69d2c2a411b0c7, type: 2}
   _rangeSpawnEnemyOf: {x: 1, y: 4}
   _countEnemy: 0
-  _isActivingObjects: 0
+  _isActivingObjects: 1
   _activingObjAfterClear: []
   _activingObjAfterEnter: []
   RoomDescription: 

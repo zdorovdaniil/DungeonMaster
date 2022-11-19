@@ -367,6 +367,10 @@ MonoBehaviour:
     m_Key: skillsSheet
     m_Metadata:
       m_Items: []
+  - m_Id: 9402923344519168
+    m_Key: LevelItemsInChests
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

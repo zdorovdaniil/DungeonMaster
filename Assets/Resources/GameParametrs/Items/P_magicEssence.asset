@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
+  m_Name: P_magicEssence
+  m_EditorClassIdentifier: 
+  Id: 67
+  Icon: {fileID: 8429111204306845183, guid: 3ad9eef9adfdca1439bf8bae56d48ca1, type: 3}
+  Name: Magical essence
+  MaxSizeSlot: 8
+  Level: 1
+  CritChance: 0
+  CritValue: 0
+  Attack: 0
+  Armor: 0
+  cost: 20
+  _descriptionText: {fileID: 0}
+  m_ItemTupe: 4
+  m_ArmorTupe: 0
+  IsSpawnInChest: 1
+  PrefabItem: {fileID: 0}
+  Buffs:
+  - {fileID: 11400000, guid: 674bf520151dbed47ba8a448faa7e0be, type: 2}
+  Improve: 0
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
+  _itemsForCraft:
+  - {fileID: 11400000, guid: 5fe2c4df6c2079d42898f57cbaa8f3ba, type: 2}
+  - {fileID: 11400000, guid: 5fe2c4df6c2079d42898f57cbaa8f3ba, type: 2}
+  - {fileID: 11400000, guid: 7e3506d54b5d16e49abd3abb281ad71d, type: 2}
+  - {fileID: 11400000, guid: 7e3506d54b5d16e49abd3abb281ad71d, type: 2}
+  _craftDifficult: 3

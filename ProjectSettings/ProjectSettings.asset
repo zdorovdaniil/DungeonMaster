@@ -135,7 +135,8 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 14ca111dacc5ef7459fe538b01f9edb0, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -791,6 +792,7 @@ PlayerSettings:
   vrEditorSettings: {}
   cloudServicesEnabled:
     Build: 1
+    Collab: 0
     Unity Ads: 1
   luminIcon:
     m_Name: 
@@ -805,7 +807,7 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: b3b4927b-e664-4656-8b6d-889b339f8a50
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
   projectName: Project
