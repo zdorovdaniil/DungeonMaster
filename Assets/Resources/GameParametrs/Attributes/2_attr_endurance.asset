@@ -15,5 +15,7 @@ MonoBehaviour:
   Id: 2
   Icon: {fileID: 0}
   Name: Endurance
-  _descriptionText: {fileID: 11400000, guid: 1453944f2d933824893fa31072f1fbf6, type: 2}
+  Description: Affects the "max HP" and the speed of regeneration of HP. 5 level
+    of this attribute increase the character's "Armor class" dealt by 1.
+  Level: 0
   MaxLevel: 30

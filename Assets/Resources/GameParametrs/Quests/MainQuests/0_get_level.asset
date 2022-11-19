@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cff1085ba495e04eb58e7d03a8115fa, type: 3}
+  m_Name: 0_get_level
+  m_EditorClassIdentifier: 
+  Id: 0
+  Name: get level
+  Description: reach character level 2
+  RewardText: 'coins: 200'
+  isInOnlyDungeon: 0
+  isMainQuest: 1
+  m_QuestType: 11
+  m_PriceType: 1
+  priceValue: 200
+  priceItems: []
+  numberSkillorAtt: 0
+  NeededCompletedQuests: []
+  neededProgress: 2
+  progressStatus: 0
+  IsCompletePermanent: 0
+  isComplete: 0
+  EnemyType: {fileID: 0}
+  ItemQuest: {fileID: 0}

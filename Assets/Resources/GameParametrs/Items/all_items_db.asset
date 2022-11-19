@@ -70,6 +70,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d1d9dcdfc18a42f408c1bf60ede05e56, type: 2}
   - {fileID: 11400000, guid: c3eeeffbc22b80b40a3e79fb3c4d09cf, type: 2}
   - {fileID: 11400000, guid: e37824e6a05b87d489cee7731e54acf9, type: 2}
+<<<<<<< HEAD
   - {fileID: 11400000, guid: 827bd664508360e4483dca12857e091a, type: 2}
   - {fileID: 11400000, guid: 2c82a4b1e8548204b91b2aea67093092, type: 2}
   - {fileID: 11400000, guid: c977ce263172c3b4ea57620c3942b6e6, type: 2}
@@ -79,3 +80,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b00a86168e29090448d4eb4aa0cb5c6f, type: 2}
   _lastId: 65
   _identicalId: 51
+=======
+>>>>>>> parent of 5511462 (home347124)

@@ -65,7 +65,6 @@ MonoBehaviour:
   _emptyRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
   _itemDatabase: {fileID: 11400000, guid: 9f7589f1ccbda6c4da0386459ef9df5f, type: 2}
   _buffDatabase: {fileID: 11400000, guid: 231d2675a57cc854fa68b6a8cec337a9, type: 2}
-  _improveDatabase: {fileID: 11400000, guid: f61e6651e26fa8744a6d1c5c22775e22, type: 2}
   _levelIcons:
   - {fileID: 3311686938078076659, guid: 3618ef51110f4a746b4ccfb94302f7aa, type: 3}
   - {fileID: 8371267333861058033, guid: 3618ef51110f4a746b4ccfb94302f7aa, type: 3}

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: 0
   _maxLvl: 4
-  _curLvl: 1
+  _curLvl: 3
   _startCost: 200
-  _costModified: 1.2
-  _description: {fileID: 11400000, guid: 50d43af8605b54f4a9b0eb7bc543c293, type: 2}
+  _costModified: 1.25
+  _description: Increase storage capacity by 5 per level
   _unlockItems: []
-  _lvlValues: 000000000f00000014000000190000001e000000
+  _lvlValues: 0000000014000000190000001e00000023000000

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2761a2d0d73da1849be7a6604b97b8de, type: 3}
   m_Name: DunConf1
   m_EditorClassIdentifier: Assembly-CSharp::DungeonConfig
+<<<<<<< HEAD
   _allSimpleRooms:
   - {fileID: 6352675349136110741, guid: 8f9ccb0c69f02b0429da8786dc282df6, type: 3}
   - {fileID: 6352675349136110741, guid: d6e9ce56b9ce29945bedc6f22555e16b, type: 3}
@@ -34,6 +35,14 @@ MonoBehaviour:
   _factorBossRooms: 5
   _factorBigRooms: 20
   _factorAmbushRoom: 5
+=======
+  _factorEndRooms: 1
+  _factorBeetweedRooms: 1
+  _factorStandartRooms: 1
+  _factorBossRooms: 1
+  _factorBigRooms: 1
+  _factorAmbushRoom: 100
+>>>>>>> parent of 5511462 (home347124)
   _countRooms: 30
   _percentEndRooms: 0.32786885
   _percentBeetweedRooms: 0.32786885

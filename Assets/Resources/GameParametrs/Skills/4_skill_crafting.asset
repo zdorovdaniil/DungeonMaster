@@ -15,6 +15,6 @@ MonoBehaviour:
   Id: 4
   Icon: {fileID: 21300000, guid: 3910cbfada2a0db419957956eedaf4f2, type: 3}
   Name: crafting
-  _descriptionText: {fileID: 11400000, guid: a43085dd4410c034cbf8e1555481723a, type: 2}
+  Description: With each level, the chance for successful crafting of items increases
   Level: 0
   MaxLevel: 10

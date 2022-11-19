@@ -314,6 +314,7 @@ MonoBehaviour:
   _maxLevel: {fileID: 7637709886773533255}
   _playerStats: {fileID: 0}
   _buttonUp: {fileID: 157336016185298737}
+  IsAskConfirm: 0
 --- !u!1 &6343273603860199596
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,15 +596,16 @@ MonoBehaviour:
   m_text: Is a measure of a character's physical strenght. 5 level of this attribute
     increase the character's "Attack" dealt by 1.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 57bc8fe02c84ecd479e212d7c1cb49c4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 57bc8fe02c84ecd479e212d7c1cb49c4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7dd096482ddb6054da129091b83cf8c9, type: 2}
+  m_sharedMaterial: {fileID: -2801883363505047379, guid: 7dd096482ddb6054da129091b83cf8c9,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4293848814
+  m_fontColor: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

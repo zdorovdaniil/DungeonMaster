@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5bedfdae35465c44a64cd948b75b765, type: 3}
+  m_Name: SkeletBow
+  m_EditorClassIdentifier: 
+  Id: 1
+  m_EnemyType: 1
+  Icon: {fileID: 0}
+  Name: skelet arc
+  Features: Bow Skelet
+  _multiplierPerLvl: 0.1
+  _coinsDrop: 0
+  _expGet: 0
+  _strenght: 5
+  _agility: 5
+  _endurance: 10
+  _speed: 10
+  _attackWeapon: 3
+  _armorEquip: 15
+  _critChance: 2
+  _critValue: 100
+  _buffChance: 5
+  timeResetHit: 0.5
+  PrefabEnemy: {fileID: 7200389530639914849, guid: 7fb004a30f6957a4b890da7239606e3f,
+    type: 3}
+  IsBoss: 0
+  RandomObjectsDrop:
+  - {fileID: 11400000, guid: bb9a2bfb96792864ca92ea485d5e9ed8, type: 2}
+  AlwaysObjectsDrop: []
+  RandomBuffAvaibles:
+  - {fileID: 11400000, guid: f89d96de34ac49345be88160b38ade06, type: 2}
+  - {fileID: 11400000, guid: 674bf520151dbed47ba8a448faa7e0be, type: 2}

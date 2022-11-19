@@ -15,6 +15,7 @@ MonoBehaviour:
   Id: 3
   Icon: {fileID: 21300000, guid: 0544cb92c196c7c4fb7440f4839b5cab, type: 3}
   Name: trade
-  _descriptionText: {fileID: 11400000, guid: f2b8503491448684d8981f994600bb4b, type: 2}
+  Description: The higher this skill, the cheaper the items are when buying and more
+    expensive when selling
   Level: 0
   MaxLevel: 10

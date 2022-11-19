@@ -15,5 +15,7 @@ MonoBehaviour:
   Id: 0
   Icon: {fileID: 0}
   Name: Strenght
-  _descriptionText: {fileID: 11400000, guid: 2551c201b346510489eea5c65a575774, type: 2}
+  Description: Is a measure of a character's physical strenght. 5 level of this attribute
+    increase the character's "Attack" dealt by 1.
+  Level: 0
   MaxLevel: 30
