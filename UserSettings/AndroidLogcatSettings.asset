@@ -1,5 +1,5 @@
 {
-    "m_SelectedDeviceId": "5d19ca560504",
+    "m_SelectedDeviceId": "",
     "m_SelectedPackage": {
         "deviceId": "",
         "name": "",
@@ -7,38 +7,7 @@
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "5d19ca560504",
-            "name": "com.Zdorov.Dungeon",
-            "processId": 11526,
-            "exited": true
-        },
-        {
-            "deviceId": "5d19ca560504",
-            "name": "com.Zdorov.DungeonMaster",
-            "processId": 19352,
-            "exited": true
-        },
-        {
-            "deviceId": "5d19ca560504",
-            "name": "com.ZdorovCompany.DungeonMaster",
-            "processId": 21794,
-            "exited": true
-        },
-        {
-            "deviceId": "5d19ca560504",
-            "name": "com.miui.securitycenter",
-            "processId": 419,
-            "exited": true
-        },
-        {
-            "deviceId": "5d19ca560504",
-            "name": "com.miui.securitycenter",
-            "processId": 797,
-            "exited": false
-        }
-    ],
+    "m_KnownPackagesForSerialization": [],
     "m_Tags": {
         "m_Entries": [
             {
@@ -72,7 +41,7 @@
         ]
     },
     "m_MemoryViewerState": {
-        "MemoryWindowHeight": 255.0,
+        "MemoryWindowHeight": 300.0,
         "MemoryWindowWidth": 170.0,
         "MemoryTypeEnabled": [
             true,
@@ -86,7 +55,7 @@
             true,
             true
         ],
-        "MemoryGroup": 1,
+        "MemoryGroup": 2,
         "Behavior": 0
     },
     "m_FilterOptions": {

@@ -515,6 +515,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6b71e850abef2a4ab8b5aff3c150f58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _activasionOnDelay: 0
   m_TupeDamageZone: 2
   _buffs: []
   playerStats: {fileID: 0}
@@ -903,7 +904,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemySkin: {fileID: 3707192608587765300}
-  Arrow: {fileID: 1025328027174659903, guid: 4c65b783ff1c58943ac2287d4671f685, type: 3}
   isDeath: 0
   timeToResetKick: 0.8
   RandomValueBetweenAttack: {x: 1, y: 4}
@@ -921,6 +921,9 @@ MonoBehaviour:
   - {fileID: 8736038061511414453}
   timer: 0
   isFirstAttack: 1
+  isControlLocal: 0
+  DistanceWeaponPrefab: {fileID: 1025328027174659903, guid: 4c65b783ff1c58943ac2287d4671f685,
+    type: 3}
 --- !u!114 &7200389530639914858
 MonoBehaviour:
   m_ObjectHideFlags: 0

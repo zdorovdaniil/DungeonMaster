@@ -25,10 +25,11 @@ MonoBehaviour:
   _descriptionText: {fileID: 0}
   m_ItemTupe: 10
   m_ArmorTupe: 0
+  _clickSound: 2
+  _useSound: 6
   IsSpawnInChest: 1
   PrefabItem: {fileID: 0}
   Buffs: []
   Improve: 8
   _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
-  _itemsForCraft: []
-  _craftDifficult: 0
+  craftRecipes: []

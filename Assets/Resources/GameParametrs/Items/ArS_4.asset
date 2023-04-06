@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 50
   Icon: {fileID: -5213849075649894867, guid: 37af0fdde3c51e3419b8e780edb92aee, type: 3}
-  Name: Armored Iron Shoes
+  Name: Steel Shoes
   MaxSizeSlot: 1
   Level: 4
   CritChance: 0
@@ -25,13 +25,13 @@ MonoBehaviour:
   _descriptionText: {fileID: 0}
   m_ItemTupe: 2
   m_ArmorTupe: 4
+  _clickSound: 0
+  _useSound: 5
   IsSpawnInChest: 0
-  PrefabItem: {fileID: 0}
+  PrefabItem: {fileID: 919132149155446097, guid: 43a134b34d61a2c45aca44b60caf4d38,
+    type: 3}
   Buffs: []
   Improve: 0
   _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
-  _itemsForCraft:
-  - {fileID: 11400000, guid: 2da18dbec8117204b8e9b62e3ce2c21a, type: 2}
-  - {fileID: 11400000, guid: 2dd4af8cfd4e6bb47a6e2ceed94e7f05, type: 2}
-  - {fileID: 11400000, guid: 53c64c532d8bb1e458012dddd224dca2, type: 2}
-  _craftDifficult: 7
+  craftRecipes:
+  - {fileID: 11400000, guid: 786aa4f36b8b549459ff97cc13a366f8, type: 2}

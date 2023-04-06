@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
-<<<<<<<< HEAD:Assets/Resources/GameParametrs/Items/ArP_2.asset
   m_Name: ArP_2
-========
-  m_Name: 5_helmet_3
->>>>>>>> parent of 5511462 (home347124):Assets/Resources/GameParametrs/Items/Armor/5_helmet_3.asset
   m_EditorClassIdentifier: 
   Id: 47
   Icon: {fileID: -3175660206273973955, guid: 37af0fdde3c51e3419b8e780edb92aee, type: 3}
@@ -24,35 +20,18 @@ MonoBehaviour:
   CritChance: 0
   CritValue: 0
   Attack: 0
-<<<<<<<< HEAD:Assets/Resources/GameParametrs/Items/ArP_2.asset
   Armor: 3
   cost: 50
   _descriptionText: {fileID: 0}
   m_ItemTupe: 2
   m_ArmorTupe: 3
+  _clickSound: 0
+  _useSound: 5
   IsSpawnInChest: 1
-  PrefabItem: {fileID: 0}
-========
-  Armor: 4
-  cost: 159
-  Features: 
-  m_ItemTupe: 2
-  m_ArmorTupe: 1
-  PrefabItem: {fileID: 919132149155446097, guid: 1cc204c5af0ed124a828b93a67aca660,
+  PrefabItem: {fileID: 919132149155446097, guid: 5b7925798f8e26b40a71aeea7e69c3c3,
     type: 3}
->>>>>>>> parent of 5511462 (home347124):Assets/Resources/GameParametrs/Items/Armor/5_helmet_3.asset
   Buffs: []
   Improve: 0
   _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
-  _itemsForCraft:
-<<<<<<<< HEAD:Assets/Resources/GameParametrs/Items/ArP_2.asset
-  - {fileID: 11400000, guid: 6af4a2a188ff46a4aaaab26fb7bb03af, type: 2}
-  - {fileID: 11400000, guid: 53c64c532d8bb1e458012dddd224dca2, type: 2}
-  - {fileID: 11400000, guid: 53c64c532d8bb1e458012dddd224dca2, type: 2}
-  - {fileID: 11400000, guid: 2dd4af8cfd4e6bb47a6e2ceed94e7f05, type: 2}
-  _craftDifficult: 5
-========
-  - {fileID: 11400000, guid: 53c64c532d8bb1e458012dddd224dca2, type: 2}
-  - {fileID: 11400000, guid: 53c64c532d8bb1e458012dddd224dca2, type: 2}
-  _craftDifficult: 6
->>>>>>>> parent of 5511462 (home347124):Assets/Resources/GameParametrs/Items/Armor/5_helmet_3.asset
+  craftRecipes:
+  - {fileID: 11400000, guid: 1ba35fabbf9ab504b8dbed70c422b5f2, type: 2}

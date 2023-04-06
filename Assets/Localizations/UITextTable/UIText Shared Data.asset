@@ -215,7 +215,6 @@ MonoBehaviour:
     m_Key: createRoom
     m_Metadata:
       m_Items: []
-<<<<<<< HEAD
   - m_Id: 6407662737350656
     m_Key: parametrsDungeon
     m_Metadata:
@@ -372,8 +371,10 @@ MonoBehaviour:
     m_Key: LevelItemsInChests
     m_Metadata:
       m_Items: []
-=======
->>>>>>> parent of 5511462 (home347124)
+  - m_Id: 13385845030313984
+    m_Key: unlockUmprove
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

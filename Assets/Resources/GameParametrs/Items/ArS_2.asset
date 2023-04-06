@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
+  m_Name: ArS_2
+  m_EditorClassIdentifier: 
+  Id: 75
+  Icon: {fileID: 7462250682032309684, guid: 37af0fdde3c51e3419b8e780edb92aee, type: 3}
+  Name: armored Leather Shoes
+  MaxSizeSlot: 1
+  Level: 2
+  CritChance: 0
+  CritValue: 0
+  Attack: 0
+  Armor: 2
+  cost: 55
+  _descriptionText: {fileID: 0}
+  m_ItemTupe: 2
+  m_ArmorTupe: 4
+  _clickSound: 0
+  _useSound: 5
+  IsSpawnInChest: 1
+  PrefabItem: {fileID: 919132149155446097, guid: 7253b2fc13575ac4e83a1e85cca6a33f,
+    type: 3}
+  Buffs: []
+  Improve: 0
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
+  craftRecipes:
+  - {fileID: 11400000, guid: bfdcebdd86a1f844093a2a91c4873d33, type: 2}

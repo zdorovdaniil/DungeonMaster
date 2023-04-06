@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f45ddafb77e3b44eac9e40df5993c87, type: 3}
+  m_Name: shop-potions-1
+  m_EditorClassIdentifier: 
+  _id: 3
+  _maxLvl: 2
+  _curLvl: 1
+  _startCost: 200
+  _costModified: 1.25
+  _description: {fileID: 11400000, guid: deedbc1f70d0a6c40aa8fae8c9cdfed0, type: 2}
+  _unlockItems:
+  - {fileID: 11400000, guid: dbf69fe9f0973e9459ca58aa36a6ef86, type: 2}
+  - {fileID: 11400000, guid: c3eeeffbc22b80b40a3e79fb3c4d09cf, type: 2}
+  - {fileID: 11400000, guid: e37824e6a05b87d489cee7731e54acf9, type: 2}
+  - {fileID: 11400000, guid: 2c82a4b1e8548204b91b2aea67093092, type: 2}
+  - {fileID: 11400000, guid: 5de3f5058224f48428bcbb10d868fe64, type: 2}
+  _needToUnlockImproves: []
+  _lvlValues: 

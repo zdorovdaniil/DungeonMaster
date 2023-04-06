@@ -3200,6 +3200,7 @@ MonoBehaviour:
   _sAttributeUp: {fileID: 1023701622}
   _sOpenChest: {fileID: 717065576496508700}
   _sCloseChest: {fileID: 8563738690561267974}
+  _webHit: {fileID: 863092308548142057, guid: 87612dfda0ca8ec43bc14d77306b2ed5, type: 3}
   _getBuff: {fileID: 863092308548142057, guid: 6b67242ef18bf624ab4f392c8189eb9b, type: 3}
   _crit: {fileID: 863092308548142057, guid: 91672b0a4d1f000489b8210fe7bdb669, type: 3}
   _teleportPlayer: {fileID: 863092308548142057, guid: b4cfc3365ce33bf4fa522d03e88ea502,

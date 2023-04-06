@@ -71,7 +71,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2742597786066944
-    m_Localized: Shop
+    m_Localized: shop
     m_Metadata:
       m_Items: []
   - m_Id: 2742988724559872
@@ -210,7 +210,6 @@ MonoBehaviour:
     m_Localized: create room
     m_Metadata:
       m_Items: []
-<<<<<<< HEAD
   - m_Id: 6407662737350656
     m_Localized: parametrs of dungeon
     m_Metadata:
@@ -355,8 +354,10 @@ MonoBehaviour:
     m_Localized: items level in chests
     m_Metadata:
       m_Items: []
-=======
->>>>>>> parent of 5511462 (home347124)
+  - m_Id: 13385845030313984
+    m_Localized: to unlock this improve, you need upgrade the previous improve level
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

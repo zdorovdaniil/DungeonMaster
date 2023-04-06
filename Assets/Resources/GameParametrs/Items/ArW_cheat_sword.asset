@@ -10,17 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
-<<<<<<<< HEAD:Assets/Resources/GameParametrs/Items/ArW_cheat_sword.asset
   m_Name: ArW_cheat_sword
-========
-  m_Name: 29_cheat_sword
->>>>>>>> parent of 5511462 (home347124):Assets/Resources/GameParametrs/Items/Weapon/29_cheat_sword.asset
   m_EditorClassIdentifier: 
   Id: 29
   Icon: {fileID: -5670497805636790035, guid: 69da15a6964615f48b9efe51ae7d4c21, type: 3}
   Name: cheat sword
   MaxSizeSlot: 1
-  Level: 6
+  Level: 5
   CritChance: 0
   CritValue: 0
   Attack: 999
@@ -29,11 +25,12 @@ MonoBehaviour:
   _descriptionText: {fileID: 0}
   m_ItemTupe: 3
   m_ArmorTupe: 0
+  _clickSound: 0
+  _useSound: 4
   IsSpawnInChest: 1
   PrefabItem: {fileID: 919132149155446097, guid: c2249064ae1f1aa4c8c39882c3fef595,
     type: 3}
   Buffs: []
   Improve: 0
   _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
-  _itemsForCraft: []
-  _craftDifficult: 0
+  craftRecipes: []

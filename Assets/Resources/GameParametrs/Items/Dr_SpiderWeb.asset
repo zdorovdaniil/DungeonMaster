@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
-<<<<<<<< HEAD:Assets/Resources/GameParametrs/Items/Dr_SpiderWeb.asset
   m_Name: Dr_SpiderWeb
-========
-  m_Name: 14_web
->>>>>>>> parent of 5511462 (home347124):Assets/Resources/GameParametrs/Items/Monster/14_web.asset
   m_EditorClassIdentifier: 
   Id: 14
   Icon: {fileID: -2326151793324896445, guid: 3ad9eef9adfdca1439bf8bae56d48ca1, type: 3}

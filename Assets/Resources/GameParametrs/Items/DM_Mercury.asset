@@ -10,7 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
-<<<<<<<< HEAD:Assets/Resources/GameParametrs/Items/DM_Mercury.asset
   m_Name: DM_Mercury
   m_EditorClassIdentifier: 
   Id: 35
@@ -22,31 +21,15 @@ MonoBehaviour:
   CritValue: 0
   Attack: 0
   Armor: 0
-  cost: 10
+  cost: 14
   _descriptionText: {fileID: 0}
   m_ItemTupe: 8
   m_ArmorTupe: 0
   IsSpawnInChest: 1
-========
-  m_Name: 24_amulet_1
-  m_EditorClassIdentifier: 
-  Id: 24
-  Icon: {fileID: -2101461588450732082, guid: 3ad9eef9adfdca1439bf8bae56d48ca1, type: 3}
-  Name: Crown of Dingeon
-  MaxSizeSlot: 1
-  Level: 5
-  CritChance: 0
-  CritValue: 0
-  Attack: 2
-  Armor: 2
-  cost: 1000
-  Features: 
-  m_ItemTupe: 2
-  m_ArmorTupe: 5
->>>>>>>> parent of 5511462 (home347124):Assets/Resources/GameParametrs/Items/Armor/24_amulet_1.asset
   PrefabItem: {fileID: 0}
   Buffs: []
   Improve: 0
   _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
   _itemsForCraft: []
+  craftRecipes: []
   _craftDifficult: 0

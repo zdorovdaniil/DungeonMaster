@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
-<<<<<<<< HEAD:Assets/Resources/GameParametrs/Items/ArA_DungeonMaster.asset
   m_Name: ArA_DungeonMaster
-========
-  m_Name: 2_axe_1
->>>>>>>> parent of 5511462 (home347124):Assets/Resources/GameParametrs/Items/Weapon/2_axe_1.asset
   m_EditorClassIdentifier: 
   Id: 24
   Icon: {fileID: 985593277461862517, guid: 3ad9eef9adfdca1439bf8bae56d48ca1, type: 3}
@@ -29,10 +25,11 @@ MonoBehaviour:
   _descriptionText: {fileID: 11400000, guid: 0e252cfb8b9873142893012f322c3dc7, type: 2}
   m_ItemTupe: 2
   m_ArmorTupe: 5
+  _clickSound: 0
+  _useSound: 6
   IsSpawnInChest: 0
   PrefabItem: {fileID: 0}
   Buffs: []
   Improve: 0
   _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
-  _itemsForCraft: []
-  _craftDifficult: 0
+  craftRecipes: []

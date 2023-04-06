@@ -15,7 +15,7 @@ MonoBehaviour:
   Id: 1
   Icon: {fileID: 21300000, guid: 18fdeed98fba19040a6cc9f37f8a3783, type: 3}
   Name: jerk
-  Description: The ability to move quickly. 1 level reduces the rollback time and
-    increases the range.
+  _descriptionText: {fileID: 11400000, guid: 18f5c4b9a11c824449c5453ba903e3e1, type: 2}
   Level: 0
-  MaxLevel: 10
+  MaxLvl: 12
+  AddLvl: 0

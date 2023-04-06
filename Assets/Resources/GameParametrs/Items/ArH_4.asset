@@ -25,14 +25,13 @@ MonoBehaviour:
   _descriptionText: {fileID: 0}
   m_ItemTupe: 2
   m_ArmorTupe: 1
+  _clickSound: 0
+  _useSound: 5
   IsSpawnInChest: 1
-  PrefabItem: {fileID: 919132149155446097, guid: 1cc204c5af0ed124a828b93a67aca660,
+  PrefabItem: {fileID: 919132149155446097, guid: a07402661c9c2ee40b0d10a925a2a3af,
     type: 3}
   Buffs: []
   Improve: 0
   _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
-  _itemsForCraft:
-  - {fileID: 11400000, guid: 2da18dbec8117204b8e9b62e3ce2c21a, type: 2}
-  - {fileID: 11400000, guid: 2dd4af8cfd4e6bb47a6e2ceed94e7f05, type: 2}
-  - {fileID: 11400000, guid: 53c64c532d8bb1e458012dddd224dca2, type: 2}
-  _craftDifficult: 7
+  craftRecipes:
+  - {fileID: 11400000, guid: b825f0f2a67934b47804587c2e34117b, type: 2}

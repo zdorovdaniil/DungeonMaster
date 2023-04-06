@@ -1807,6 +1807,7 @@ GameObject:
   - component: {fileID: 7048310862598056400}
   - component: {fileID: 5229821353001765616}
   - component: {fileID: 875387521555518125}
+  - component: {fileID: 1638609642481468870}
   m_Layer: 0
   m_Name: E_Spider
   m_TagString: Enemy
@@ -1952,6 +1953,7 @@ MonoBehaviour:
   - {fileID: 2822916861691707376}
   timer: 0
   isFirstAttack: 1
+  isControlLocal: 0
 --- !u!114 &1922219223831764350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2119,6 +2121,22 @@ MonoBehaviour:
   m_SynchronizeLayers:
   - SynchronizeType: 0
     LayerIndex: 0
+--- !u!114 &1638609642481468870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922219223831764338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cca15f37e1a68d8419ad7be2ac2b68d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _particlePlaeces: {fileID: 6584600230934262611}
+  _weaponParticle: {fileID: 0}
+  _jercParticle: {fileID: 0}
+  _flyingSlash: {fileID: 0}
 --- !u!1 &1922219223831764340
 GameObject:
   m_ObjectHideFlags: 0

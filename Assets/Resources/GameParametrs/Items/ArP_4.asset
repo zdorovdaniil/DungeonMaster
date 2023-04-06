@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Id: 48
   Icon: {fileID: 5661577231453527564, guid: 37af0fdde3c51e3419b8e780edb92aee, type: 3}
-  Name: Leather Pants
+  Name: Steel Pants
   MaxSizeSlot: 1
   Level: 4
   CritChance: 0
@@ -25,15 +25,13 @@ MonoBehaviour:
   _descriptionText: {fileID: 0}
   m_ItemTupe: 2
   m_ArmorTupe: 3
+  _clickSound: 0
+  _useSound: 5
   IsSpawnInChest: 1
-  PrefabItem: {fileID: 0}
+  PrefabItem: {fileID: 919132149155446097, guid: fb4a30de31e71ce4fbc400506d5f7562,
+    type: 3}
   Buffs: []
   Improve: 0
   _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
-  _itemsForCraft:
-  - {fileID: 11400000, guid: 53c64c532d8bb1e458012dddd224dca2, type: 2}
-  - {fileID: 11400000, guid: 2da18dbec8117204b8e9b62e3ce2c21a, type: 2}
-  - {fileID: 11400000, guid: 2da18dbec8117204b8e9b62e3ce2c21a, type: 2}
-  - {fileID: 11400000, guid: 2da18dbec8117204b8e9b62e3ce2c21a, type: 2}
-  - {fileID: 11400000, guid: 2dd4af8cfd4e6bb47a6e2ceed94e7f05, type: 2}
-  _craftDifficult: 7
+  craftRecipes:
+  - {fileID: 11400000, guid: 863a61cf6300c1f4aabc48dd409ab87b, type: 2}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd60b830f0f2dc4ea70f5bb9c868982, type: 3}
+  m_Name: dungeon-rules
+  m_EditorClassIdentifier: 
+  _itemsDeleteOnExiting:
+  - {fileID: 11400000, guid: b00a86168e29090448d4eb4aa0cb5c6f, type: 2}
+  _numRoomsDependDunLevel: 1e00000028000000320000003c00000046000000
+  _additionalQuestsPerLevel: 0400000005000000060000000700000008000000
+  _modifTrapDamagePerLevel: 1.25
+  _rangefTrapArrowDamage: {x: 8, y: 15}
+  _rangeTrapFireDamage: {x: 4, y: 5}
+  _rangeTrapLavaDamage: {x: 10, y: 20}
+  _rangeRemoveFogOfVarFromMap: {x: 7, y: 10}

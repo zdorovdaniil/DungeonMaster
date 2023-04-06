@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83dd5c903fb915b4a8749f24fe671318, type: 3}
+  m_Name: Attack-debaff-10-30
+  m_EditorClassIdentifier: 
+  BuffId: 15
+  Buff: 5
+  Duration: 30
+  Value: -10
+  Icon: {fileID: 21300000, guid: 6cb67c6a370a74f4399cae177900d553, type: 3}
+  EffectOnUse: {fileID: 7079385747637912457, guid: 5ec320318fbf9b343b4e9fbdad7ed971,
+    type: 3}
+  EffectOnUsing: {fileID: 7703680344408566559, guid: da26aa9d18a7ce145b305683ded878d8,
+    type: 3}
+  EffectLifetime: 40
+  Description: 

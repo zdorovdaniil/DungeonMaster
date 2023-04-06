@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f45ddafb77e3b44eac9e40df5993c87, type: 3}
+  m_Name: craft-armor-3
+  m_EditorClassIdentifier: 
+  _id: 2
+  _maxLvl: 2
+  _curLvl: 1
+  _startCost: 200
+  _costModified: 1.25
+  _description: {fileID: 11400000, guid: 3989efa7563378f4f9a60cb58181f397, type: 2}
+  _unlockItems:
+  - {fileID: 11400000, guid: 944b75fc4babe084396ce335c22ddc11, type: 2}
+  - {fileID: 11400000, guid: 75e7dcc0166ef3a498dd60a85059ce12, type: 2}
+  - {fileID: 11400000, guid: 8a6cbafd3c2acf449bb342ed42d99901, type: 2}
+  - {fileID: 11400000, guid: c232168ca09f6c948859735cead55f53, type: 2}
+  _needToUnlockImproves:
+  - {fileID: 11400000, guid: 6e7d53af15efbd44480df03009d5200e, type: 2}
+  _lvlValues: 

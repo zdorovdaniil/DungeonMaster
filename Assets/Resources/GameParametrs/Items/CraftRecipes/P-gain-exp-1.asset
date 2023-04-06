@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 797972e57f1041540a30222e3013e49c, type: 3}
+  m_Name: P-gain-exp-1
+  m_EditorClassIdentifier: 
+  _craftItem: {fileID: 11400000, guid: 2c82a4b1e8548204b91b2aea67093092, type: 2}
+  _itemsForCraft:
+  - {fileID: 11400000, guid: e06c36fcec3b5c046b4ebf6c679f7e39, type: 2}
+  - {fileID: 11400000, guid: 2d9cef62adb1c7544bad9ab675ca63c6, type: 2}
+  - {fileID: 11400000, guid: 02e0dd763312e32458653dcc70747992, type: 2}
+  _craftDifficult: 7

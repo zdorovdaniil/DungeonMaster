@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7341376790717218558}
   - component: {fileID: 7433411032873641436}
   - component: {fileID: 7434349873656451806}
+  - component: {fileID: 3044766547388641730}
   m_Layer: 0
   m_Name: Unite
   m_TagString: Untagged
@@ -4825,6 +4826,22 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &3044766547388641730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7343941649860112162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f60b2ab397e8d7547869576e00cfeea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _timeToDestroy: 2
+  _gameObjects:
+  - {fileID: 7343941649860112162}
+  _tickWithStart: 1
 --- !u!1 &7343955046194355778
 GameObject:
   m_ObjectHideFlags: 0

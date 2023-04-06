@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
+  m_Name: P-gain-exp-1
+  m_EditorClassIdentifier: 
+  Id: 62
+  Icon: {fileID: 4510841634072251729, guid: 3ad9eef9adfdca1439bf8bae56d48ca1, type: 3}
+  Name: potion for intelligence
+  MaxSizeSlot: 4
+  Level: 4
+  CritChance: 0
+  CritValue: 0
+  Attack: 0
+  Armor: 0
+  cost: 100
+  _descriptionText: {fileID: 0}
+  m_ItemTupe: 4
+  m_ArmorTupe: 0
+  _clickSound: 1
+  _useSound: 8
+  IsSpawnInChest: 1
+  PrefabItem: {fileID: 0}
+  Buffs:
+  - {fileID: 11400000, guid: f409ec2149bf9ea47b2e73559eb706ef, type: 2}
+  Improve: 0
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
+  craftRecipes:
+  - {fileID: 11400000, guid: 2918372f317f0f4409bfca8ad588b12f, type: 2}

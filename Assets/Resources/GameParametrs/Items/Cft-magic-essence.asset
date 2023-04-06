@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
+  m_Name: Cft-magic-essence
+  m_EditorClassIdentifier: 
+  Id: 67
+  Icon: {fileID: 8429111204306845183, guid: 3ad9eef9adfdca1439bf8bae56d48ca1, type: 3}
+  Name: Magical essence
+  MaxSizeSlot: 8
+  Level: 1
+  CritChance: 0
+  CritValue: 0
+  Attack: 0
+  Armor: 0
+  cost: 20
+  _descriptionText: {fileID: 0}
+  m_ItemTupe: 6
+  m_ArmorTupe: 0
+  _clickSound: 1
+  _useSound: 8
+  IsSpawnInChest: 1
+  PrefabItem: {fileID: 0}
+  Buffs:
+  - {fileID: 11400000, guid: 9fab88e85fd0f4f4e81e10b6739fa412, type: 2}
+  Improve: 0
+  _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
+  craftRecipes:
+  - {fileID: 11400000, guid: 4157eb2092dcfff45b6ddec9ec45c018, type: 2}

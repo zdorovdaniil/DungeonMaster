@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
+  m_Name: ArW_3
+  m_EditorClassIdentifier: 
+  Id: 70
+  Icon: {fileID: -7797943927681854061, guid: 69da15a6964615f48b9efe51ae7d4c21, type: 3}
+  Name: Bulat Sword
+  MaxSizeSlot: 1
+  Level: 3
+  CritChance: 0
+  CritValue: 0
+  Attack: 6
+  Armor: 0
+  cost: 55
+  _descriptionText: {fileID: 11400000, guid: 83a9ea314bb3f7744afa2a50b8c566e8, type: 2}
+  m_ItemTupe: 3
+  m_ArmorTupe: 0
+  _clickSound: 0
+  _useSound: 4
+  IsSpawnInChest: 1
+  PrefabItem: {fileID: 919132149155446097, guid: e1a331abfd155ae4ca4921eebd651f76,
+    type: 3}
+  Buffs: []
+  Improve: 0
+  _itemRequirement: {fileID: 11400000, guid: 621e11573c35e8d42bc2728c087d4fee, type: 2}
+  craftRecipes:
+  - {fileID: 11400000, guid: ed9277daab9426e4e86c5df2356910eb, type: 2}

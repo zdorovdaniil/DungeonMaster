@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
-<<<<<<<< HEAD:Assets/Resources/GameParametrs/Items/Dr_WolfLeather.asset
   m_Name: Dr_WolfLeather
-========
-  m_Name: 26_leather
->>>>>>>> parent of 5511462 (home347124):Assets/Resources/GameParametrs/Items/Monster/26_leather.asset
   m_EditorClassIdentifier: 
   Id: 26
   Icon: {fileID: 21300000, guid: c0e7217a07e49364db48c62cc2e2b376, type: 3}
@@ -35,4 +31,5 @@ MonoBehaviour:
   Improve: 0
   _itemRequirement: {fileID: 11400000, guid: 37be402bb01a2874caaa791a24c3b98b, type: 2}
   _itemsForCraft: []
+  craftRecipes: []
   _craftDifficult: 0

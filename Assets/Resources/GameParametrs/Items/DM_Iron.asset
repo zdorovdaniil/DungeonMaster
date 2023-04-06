@@ -21,7 +21,7 @@ MonoBehaviour:
   CritValue: 0
   Attack: 0
   Armor: 0
-  cost: 25
+  cost: 30
   _descriptionText: {fileID: 0}
   m_ItemTupe: 8
   m_ArmorTupe: 0
@@ -33,4 +33,6 @@ MonoBehaviour:
   _itemsForCraft:
   - {fileID: 11400000, guid: bb376222914a0104a89dfe9ae1e3f5cc, type: 2}
   - {fileID: 11400000, guid: bb376222914a0104a89dfe9ae1e3f5cc, type: 2}
+  craftRecipes:
+  - {fileID: 11400000, guid: 8dd3f042e084fc2479fbdd17c86f19b0, type: 2}
   _craftDifficult: 5

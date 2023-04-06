@@ -61,3 +61,7 @@ MonoBehaviour:
   _bloodHit: {fileID: 1850033487435682, guid: 2c4b2397ab17cce4bae0e99c1004869d, type: 3}
   _flyingSlash: {fileID: 7475097860177236339, guid: ef689d1a7e45d6b499c5bcdc20e1ea64,
     type: 3}
+  _createChest: {fileID: 5560885864349378571, guid: bc2fbc012446c3544b83417e020d48bd,
+    type: 3}
+  _unionPacricle: {fileID: 7343941649860112162, guid: dc46746b4be24d14bba397a3fff3b94a,
+    type: 3}

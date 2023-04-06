@@ -15,6 +15,7 @@ MonoBehaviour:
   Id: 2
   Icon: {fileID: 21300000, guid: 59e2ec886d4f88e4a811c200c9045b5e, type: 3}
   Name: medicine
-  Description: This skill increases the regeneration of health points
-  Level: 0
-  MaxLevel: 7
+  _descriptionText: {fileID: 11400000, guid: bcf0351e0b55c964e937aae34086a666, type: 2}
+  Level: 3
+  MaxLvl: 7
+  AddLvl: 0

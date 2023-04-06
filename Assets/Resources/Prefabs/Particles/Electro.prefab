@@ -9809,7 +9809,7 @@ GameObject:
   - component: {fileID: 8151399893812873792}
   - component: {fileID: 8149451788845127264}
   m_Layer: 0
-  m_Name: Electro
+  m_Name: electro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

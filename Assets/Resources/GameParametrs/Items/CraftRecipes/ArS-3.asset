@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 797972e57f1041540a30222e3013e49c, type: 3}
+  m_Name: ArS-3
+  m_EditorClassIdentifier: 
+  _craftItem: {fileID: 0}
+  _itemsForCraft:
+  - {fileID: 11400000, guid: 53c64c532d8bb1e458012dddd224dca2, type: 2}
+  - {fileID: 11400000, guid: 53c64c532d8bb1e458012dddd224dca2, type: 2}
+  - {fileID: 11400000, guid: 2dd4af8cfd4e6bb47a6e2ceed94e7f05, type: 2}
+  _craftDifficult: 6

@@ -10,11 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfbe78ff9403866429357eee7c73adb7, type: 3}
-<<<<<<<< HEAD:Assets/Resources/GameParametrs/Items/Dr_SkeletBone.asset
   m_Name: Dr_SkeletBone
-========
-  m_Name: 13_bone
->>>>>>>> parent of 5511462 (home347124):Assets/Resources/GameParametrs/Items/Monster/13_bone.asset
   m_EditorClassIdentifier: 
   Id: 13
   Icon: {fileID: -9005365477923167057, guid: 8b5065f95b60c4e49ade78a670edb6eb, type: 3}
